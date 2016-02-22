@@ -1,0 +1,4346 @@
+{
+  "slides": [
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 174,
+          "y": 75,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 78,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: 'Hammersmith One', sans-serif;\">Per què Programar&nbsp;</span></div><font face=\"Hammersmith One, sans-serif\"><div style=\"text-align: center;\">jocs en JavaScript?</div></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/Lla8ICm.png",
+          "type": "Image",
+          "x": 300,
+          "y": 322,
+          "scale": {
+            "x": 0.26399999999999996,
+            "y": 0.26399999999999996,
+            "width": 395.99999999999994,
+            "height": 395.99999999999994
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 0,
+      "selected": false,
+      "active": false,
+      "x": 182,
+      "y": 179
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 138,
+          "y": 111,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 76,
+          "text": "<font face=\"Hammersmith One\">...perquè ara podem!!!</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/OrBJyOS.png",
+          "type": "Image",
+          "x": 197,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 1,
+      "selected": false,
+      "active": false,
+      "x": 172,
+      "y": 378
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 43,
+          "y": 115,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#000000\">Tecnologies relacionades amb la WEB</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 201,
+          "y": 219,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#000000\">Desenvolupament de Jocs</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 376,
+          "y": 320,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#000000\">Eines per desenvolupar&nbsp;</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 76,
+          "y": 598,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"PressStart2P, cursive\" color=\"#d2e907\">ASTEROIDS amb JavaScript</font><br>",
+          "selected": false,
+          "customClasses": "arcade1"
+        },
+        {
+          "src": "http://i.imgur.com/AtCDi34.png",
+          "type": "Image",
+          "x": 60,
+          "y": 163,
+          "scale": {
+            "x": 0.52,
+            "y": 0.52,
+            "width": 130,
+            "height": 130
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/AtCDi34.png",
+          "type": "Image",
+          "x": 228,
+          "y": 265,
+          "scale": {
+            "x": 0.52,
+            "y": 0.52,
+            "width": 130,
+            "height": 130
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/mEJ03QE.png",
+          "type": "Image",
+          "x": 458,
+          "y": 405,
+          "scale": {
+            "x": 0.5697674418604651,
+            "y": 0.5697674418604651,
+            "width": 147,
+            "height": 169.7906976744186
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 411,
+          "y": 7,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One, sans-serif\" color=\"#000000\">Overview</font><br>",
+          "selected": false,
+          "customClasses": "titul"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.52,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 499,
+      "y": 386
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 84,
+          "y": 17,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 41,
+          "text": "<font face=\"Hammersmith One\">Darrera el Navegador...</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/2vruuf2.png",
+          "type": "Image",
+          "x": 43,
+          "y": 109,
+          "scale": {
+            "x": 0.4392156862745098,
+            "y": 0.4392156862745098,
+            "width": 112,
+            "height": 73.78823529411764
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/wKg4tCC.png",
+          "type": "Image",
+          "x": 810,
+          "y": 268,
+          "scale": {
+            "x": 0.5466666666666666,
+            "y": 0.5466666666666666,
+            "width": 164,
+            "height": 139.94666666666666
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 200,
+          "y": 120,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono, monospace\">GET / HTTP/1.1</font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/P28ps5r.png",
+          "type": "Image",
+          "x": 216,
+          "y": 186,
+          "scale": {
+            "x": 0.6219081272084805,
+            "y": 0.6219081272084805,
+            "width": 528,
+            "height": 108.83392226148409
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 554,
+          "y": 381,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono\">HTTP/1.1 200 OK</font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/h1y6fuu.png",
+          "type": "Image",
+          "x": 507,
+          "y": 437,
+          "scale": {
+            "x": 0.7218543046357616,
+            "y": 0.7218543046357616,
+            "width": 327,
+            "height": 176.8543046357616
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/bJzOcy4.png",
+          "type": "Image",
+          "x": 113,
+          "y": 568,
+          "scale": {
+            "x": 0.6898954703832751,
+            "y": 0.6898954703832751,
+            "width": 395.99999999999994,
+            "height": 175.92334494773516
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/k8BlsIF.png",
+          "type": "Image",
+          "x": 438,
+          "y": 108,
+          "scale": {
+            "x": 0.33266932270916333,
+            "y": 0.33266932270916333,
+            "width": 167,
+            "height": 61.211155378486055
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/KTOELuI.png",
+          "type": "Image",
+          "x": 332,
+          "y": 358,
+          "scale": {
+            "x": 0.3904382470119522,
+            "y": 0.3904382470119522,
+            "width": 196,
+            "height": 71.8406374501992
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -3.13
+        },
+        {
+          "src": "http://i.imgur.com/Dpzxc97.png",
+          "type": "Image",
+          "x": 492,
+          "y": 594,
+          "scale": {
+            "x": 0.552,
+            "y": 0.552,
+            "width": 138,
+            "height": 138
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 60,
+          "y": 380,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: 'Hammersmith One';\"><font color=\"#991010\">HTTP és un protocol</font></span></div><font face=\"Hammersmith One\" color=\"#991010\"><div style=\"text-align: center;\">sense estat!</div></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 29,
+          "y": 453,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<div style=\"text-align: center;\"><font color=\"#991010\" face=\"Hammersmith One\">Cada petició és independent de les altres</font></div><div style=\"text-align: center;\"><font color=\"#991010\" face=\"Hammersmith One\">No recorda res de les peticions anteriors!</font></div>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 500,
+      "y": 184
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 295,
+          "y": 120,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\" color=\"#13169d\">WEB 1.0</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 176,
+          "y": 316,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\" color=\"#13169d\">WEB 2.0</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 129,
+          "y": 550,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\" color=\"#13169d\">WEB 3.0</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 398,
+          "y": 172,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">HTTP + HTML</span><br></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Només text i imatges</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Documents estàtics que calia editar manualment</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">El contingut i la presentació es barrejaven</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 281,
+          "y": 369,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">HTTP + HTML + CSS + PHP + MYSQL</span><br></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Documents dinàmics generats per scripts de servidor</span><br></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">CSS permet separar el contingut de la presentació</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">S'afegeixen elements multimedia mitjançant plug-ins</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Enormes incompatibilitats entre navegadors</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 251,
+          "y": 612,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">HTTP + HTML5 + CSS3 + JavaScript + AJAX + PHP + BBDDD</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Major estandardització --&gt; Menys diferències entre navegadors</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Suport multimèdia en el mateix navegador</span></li><li><b>Millora en la interactivitat de les aplicacions WEB</b></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 545,
+          "y": 19,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\" color=\"#13169d\">Evolució de la WEB</font><br>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/WjX5JKH.png",
+          "type": "Image",
+          "x": 0,
+          "y": 94,
+          "scale": {
+            "x": 0.7015590200445435,
+            "y": 0.7015590200445435,
+            "width": 315.00000000000006,
+            "height": 171.88195991091317
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.78
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -0.52,
+      "rotateZ": 0,
+      "index": 4,
+      "selected": false,
+      "active": false,
+      "x": 810,
+      "y": 179
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 39,
+          "y": 42,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">HTML5</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 100,
+          "y": 141,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><font face=\"Hammersmith One\"><span style=\"line-height: normal;\">Simplifica la sintaxi</span></font></li></ul><font face=\"Hammersmith One\"><br></font><ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Suport per Audio i Vídeo sense necessitar plugins&nbsp;</span></li></ul><span style=\"font-family: 'Hammersmith One';\">&nbsp;</span><br><ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Element Canvas per poder dibuixar directament al navegador</span><br></li></ul><font face=\"Hammersmith One\"><br></font><ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Nous elements que afegeixen info semàntica (article, main, section...)</span><br></li></ul><font face=\"Hammersmith One\"><br></font><ul><li><font face=\"Hammersmith One\">Nous elements per entrar dades als formularis (email...)</font></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><br></span></font><ul><li><font face=\"Hammersmith One\">Permet a l'usuari editar el contingut d'alguns elements</font></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><br></span></font><ul><li><font face=\"Hammersmith One\">Noves funcionalitats per facilitar la validació de les dades entrades</font></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><br></span></font><ul><li><font face=\"Hammersmith One\">Local Storage: Permet desar informació sense accedir al sistema de fitxers</font></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><br></span></font><ul><li><font face=\"Hammersmith One\">Permet utilitzar GeoLocalització</font></li></ul>",
+          "selected": false,
+          "skewX": 0.22,
+          "skewY": 0
+        },
+        {
+          "src": "http://i.imgur.com/59epnDe.png",
+          "type": "Image",
+          "x": 777,
+          "y": 13,
+          "scale": {
+            "x": 0.458984375,
+            "y": 0.458984375,
+            "width": 235,
+            "height": 235
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.52,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 1134,
+      "y": 182
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 39,
+          "y": 42,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">CSS3</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 141,
+          "y": 146,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Permet seleccionar elements basant-se en el valor dels seus atributs</span></li></ul><b><span style=\"font-family: 'Hammersmith One';\">&nbsp;</span><br></b><ul><li><b>Permet arrodonir els cantons de les vores dels elements</b></li></ul><font face=\"Hammersmith One\"><b><br></b></font><ul><li><b>Permet utilitzar una imatge per dibuixar les vores</b></li></ul><font face=\"Hammersmith One\"><b><br></b></font><ul><li><b>Permet afegir ombres i gradients als elements i al text</b></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><b><br></b></span></font><ul><li><b>Permet afegir transparències (RGB + canal alpha)</b></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><b><br></b></span></font><ul><li><b>Permet transformar els elements amb rotacions&nbsp;</b></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><b><br></b></span></font><ul><li><b>Permet afegir Web Fonts a les pàgines</b></li></ul><span style=\"line-height: 24px;\"><br></span>",
+          "selected": false,
+          "skewX": 0.22,
+          "skewY": 0
+        },
+        {
+          "src": "http://i.imgur.com/pwcnJie.png",
+          "type": "Image",
+          "x": 755,
+          "y": 387,
+          "scale": {
+            "x": 0.6328767123287671,
+            "y": 0.6328767123287671,
+            "width": 230.99999999999997,
+            "height": 324.03287671232874
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -0.52,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 1138,
+      "y": 381
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 186,
+          "y": 21,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 56,
+          "text": "<font face=\"Hammersmith One\" color=\"#000000\">JavaScript</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 49,
+          "y": 144,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Creat al 1995 per <b>Brendan Eich</b> a Netscape Corporation</span><br></li><li><span style=\"line-height: normal;\">No té cap relació amb Java (apart del nom)</span><br></li><li><span style=\"line-height: normal;\">Llenguatge de <b>Script</b> (o Interpretat)</span><br></li><li><span style=\"line-height: normal;\">Actualment es troba estandarditzat per la ECMA amb el nom <b>EcmaScript</b></span><br></li><li><span style=\"line-height: normal;\"><b>Dèbilment tipat</b> (no cal definir el tipus de variables)</span><br></li><li><span style=\"line-height: normal;\"><b>Multiparadigma</b>: Orientació a Objectes, Imperatiu, &nbsp;Funcional</span><br></li><li><span style=\"line-height: normal;\">Basat en prototipus enlloc de classes</span><br></li><li><span style=\"line-height: normal;\">Pràcticament tot en JS són \"objectes\"</span><br></li><li><span style=\"line-height: normal;\">Els objectes en JS són arrays associatius (parells nom-valor)</span><br></li><li><span style=\"line-height: normal;\">Les funcions són elements first-class ( de fet són objectes )</span><br></li><li><span style=\"line-height: normal;\">Suporta funcions anònimes i closures</span><br></li><li><span style=\"line-height: normal;\">La sintaxi és molt flexible, podent fer el mateix de moltes formes diferents!!!</span><br></li><li><span style=\"line-height: normal;\">Els navegadors actuals fan servir compilació just-in-time per millorar la eficiència</span><br></li><li><span style=\"line-height: normal;\">Disposa d'entorns d'execució fora del navegador (node.js)</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/HnUnlbK.jpg",
+          "type": "Image",
+          "x": 700,
+          "y": 637,
+          "scale": {
+            "x": 0.36125,
+            "y": 0.36125,
+            "width": 289,
+            "height": 108.375
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/RNiHiFf.png",
+          "type": "Image",
+          "x": 775,
+          "y": 32,
+          "scale": {
+            "x": 0.44463373083475277,
+            "y": 0.44463373083475277,
+            "width": 260.9999999999999,
+            "height": 146.7291311754684
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.05,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 1141,
+      "y": 582
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 39,
+          "y": 42,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\">JavaScript EC5 vs EC6</font><br>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 129,
+          "y": 175,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><b>Gran millora en el rendiment dels motors JavaScript</b></li></ul><span style=\"font-family: 'Hammersmith One';\"><b>&nbsp;</b></span><br><ul><li><b>Estandardització i millora en la compatibilitat entre navegadors</b></li></ul><font face=\"Hammersmith One\"><b><br></b></font><ul><li><b>Nous elements en el llenguatge que incrementen la seva potència</b></li></ul><font face=\"Hammersmith One\"><b><br></b></font><ul><li><b>Millores en la sintaxi per facilitar la llegibilitat del codi</b></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><b><br></b></span></font><ul><li><b>Permet utilitzar variables amb àmbit de bloc (Block Scope)</b></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><b><br></b></span></font><ul><li><b>Les Promises milloren el suport a les crides asíncrones</b></li></ul><font face=\"Hammersmith One\"><span style=\"line-height: 24px;\"><b><br></b></span></font><ul><li><b>Suport natiu per utilitzar mòduls (millora la reutilització de codi)</b></li></ul><span style=\"line-height: 24px;\"><br></span>",
+          "selected": false,
+          "skewX": 0.22,
+          "skewY": 0
+        },
+        {
+          "src": "http://i.imgur.com/RNiHiFf.png",
+          "type": "Image",
+          "x": 671,
+          "y": 10,
+          "scale": {
+            "x": 0.6575809199318567,
+            "y": 0.6575809199318567,
+            "width": 385.9999999999999,
+            "height": 217.00170357751273
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": -0.26,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 1136,
+      "y": 814
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 253,
+          "y": 36,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 54,
+          "text": "<font face=\"Hammersmith One\" color=\"#333333\">Jocs vs Aplicacions&nbsp;</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 29,
+          "y": 173,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 22,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Control exclusiu dels recursos hardware</span><br></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Cal actualitzar el joc encara que l'usuari no faci res</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">El temps determina la situació del joc</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">N'hi ha prou amb crear la il·lusió de realitat</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">L'aspecte gràfic pot ser més important que la funcionalitat</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Prioritzen l'entreteniment</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Intenten incentivar que es segueixi jugant</span></li></ul><font face=\"Hammersmith One\" color=\"#333333\"><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 251,
+          "y": 479,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 22,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Han de conviure amb altres tasques</span><br></li><li><font face=\"Hammersmith One\"><span style=\"line-height: normal;\">La major part del temps estan inactives esperant les accions de l'usuari</span></font></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">El temps no és important</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Cal fer les tasques de manera efectiva</span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Prioritzen la productivitat de l'usuari</span></li></ul><font face=\"Hammersmith One\" color=\"#333333\"><br><br></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/PV272x3.png",
+          "type": "Image",
+          "x": 774,
+          "y": 178,
+          "scale": {
+            "x": 1.35,
+            "y": 1.35,
+            "width": 135,
+            "height": 135
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/rCBCwYm.png",
+          "type": "Image",
+          "x": 53,
+          "y": 478,
+          "scale": {
+            "x": 0.7228260869565217,
+            "y": 0.7228260869565217,
+            "width": 133,
+            "height": 127.94021739130434
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.17,
+      "rotateZ": 1.57,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 1546,
+      "y": 179
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 261,
+          "y": 58,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 55,
+          "text": "<font face=\"Hammersmith One\" color=\"#333333\">Estructura d'un joc</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 36,
+          "y": 257,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 27,
+          "text": "<font face=\"Hammersmith One\">Carregar elements</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 193,
+          "y": 343,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 27,
+          "text": "<b>Inicialitzar el joc</b><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 377,
+          "y": 426,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "<ul><li><b style=\"line-height: normal;\">&nbsp;Capturar les entrades de l'usuari</b><br></li><li><b style=\"line-height: normal;\">&nbsp;Actualitzar el joc segons les entrades de l'usuari</b></li><li><b style=\"line-height: normal;\">&nbsp;Actualitzar el joc segons les seves regles</b></li><li><b style=\"line-height: normal;\">&nbsp;Mostrar el resultat</b></li></ul>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/AtCDi34.png",
+          "type": "Image",
+          "x": 55,
+          "y": 279,
+          "scale": {
+            "x": 0.52,
+            "y": 0.52,
+            "width": 130,
+            "height": 130
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/AtCDi34.png",
+          "type": "Image",
+          "x": 220,
+          "y": 400,
+          "scale": {
+            "x": 0.52,
+            "y": 0.52,
+            "width": 130,
+            "height": 130
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/VYwXxap.png",
+          "type": "Image",
+          "x": 632,
+          "y": 324,
+          "scale": {
+            "x": 0.26426426426426425,
+            "y": 0.26426426426426425,
+            "width": 264,
+            "height": 135.56756756756755
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.14
+        },
+        {
+          "src": "http://i.imgur.com/jyjTAWH.png",
+          "type": "Image",
+          "x": 653,
+          "y": 505,
+          "scale": {
+            "x": 0.26875,
+            "y": 0.26875,
+            "width": 258,
+            "height": 140.01874999999998
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.23
+        },
+        {
+          "TextBox": {},
+          "x": 636,
+          "y": 264,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 56,
+          "text": "<font face=\"Hammersmith One\" color=\"#dba03c\">Game Loop</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.35,
+      "rotateZ": 0,
+      "index": 10,
+      "selected": false,
+      "active": false,
+      "x": 1712,
+      "y": 455
+    },
+    {
+      "components": [
+        {
+          "src": "http://i.imgur.com/y92oduU.png",
+          "type": "Image",
+          "x": -39,
+          "y": 30,
+          "scale": {
+            "x": 2.3413043478260867,
+            "y": 2.3413043478260867,
+            "width": 1076.9999999999998,
+            "height": 725.8043478260869
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 369,
+          "y": 289,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 77,
+          "text": "<div style=\"text-align: center;\"><b style=\"font-family: Lato;\"><font color=\"#216df1\">Game</font></b></div><font face=\"Lato\" color=\"#216df1\"><div style=\"text-align: center;\"><b>LOOPS</b></div></font>",
+          "selected": false,
+          "customClasses": "titul"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.7,
+      "rotateZ": 0,
+      "index": 11,
+      "selected": false,
+      "active": false,
+      "x": 1799,
+      "y": 689
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 89,
+          "y": 20,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 120,
+          "text": "<font face=\"Hammersmith One\" color=\"#dba03c\">FPS</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 333,
+          "y": 74,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 45,
+          "text": "<font face=\"Hammersmith One\" color=\"#dba03c\">(Frames Per Second)</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 76,
+          "y": 197,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Vídeo i pel·lícules fan servir 24-25 FPS</font></span></li><li><font color=\"#000000\"><span style=\"font-family: 'Hammersmith One'; line-height: normal;\">Els jocs requereixen al menys 20FPS</span><br></font></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Es considera òptim uns 60FPS</font></span></li><li><font face=\"Hammersmith One\" color=\"#000000\"><span style=\"line-height: normal;\">Natros no sóm capaços de distingir +60FPS</span></font></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Els FPS estàn limitats per la potència del hardware</font></span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Cal que les pantalles s'actualitzin prou ràpid</font></span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Molts monitors CRT d'ordinador treballen a 60Hz</font></span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Molts LCD moderns treballen a 60, 75 o 144Hz</font></span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Els jocs actuals són Frame-Independents</font></span></li><li><span style=\"font-family: 'Hammersmith One'; line-height: normal;\"><font color=\"#000000\">Si es \"perden\" Frames el moviment es veu a salts</font></span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 145,
+          "y": 685,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\" color=\"#000000\"><a href=\"https://frames-per-second.appspot.com/\" target=\"_blank\">https://frames-per-second.appspot.com/</a></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.87,
+      "rotateZ": 0,
+      "index": 12,
+      "selected": false,
+      "active": false,
+      "x": 1889,
+      "y": 956
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 383,
+          "y": 125,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">while (true)&nbsp;</font>{<br>&nbsp; processarEntradaUsuari();<br>&nbsp; actualitzarElementsJoc();<br>&nbsp; mostrarJoc();<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 41,
+          "y": 380,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">while (true)&nbsp;</font>{<br>&nbsp; processarEntradaUsuari();<br>&nbsp; actualitzarElementsJoc();<br>&nbsp; MostrarJoc();<br><br>&nbsp; for (i=1;i&lt;1000;i++){}<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 563,
+          "y": 57,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">S'executa a la velocitat del processador</span><br></li><li><span style=\"line-height: normal;\">El moviment pot ser massa ràpid</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 194,
+          "y": 652,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Consumeix molts recursos de CPU</span><br></li><li>Segueix depenent de la velocitat del processador</li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 13,
+      "selected": false,
+      "active": false,
+      "x": 1995,
+      "y": 1183
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 23,
+          "y": 447,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">var FPS = 60;<br>function gameLoop() {<br>&nbsp; &nbsp;processarEntradaUsuari();<br>&nbsp; &nbsp;actualitzarElementsJoc();<br>&nbsp; &nbsp;MostrarJoc();<br>}<br></font>setInterval(gameLoop, 1000/FPS);}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 42,
+          "y": 49,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">var FPS = 60;<br>function gameLoop()&nbsp;{<br>&nbsp; &nbsp;processarEntradaUsuari();<br>&nbsp; &nbsp;actualitzarElementsJoc();<br>&nbsp; &nbsp;MostrarJoc();<br>&nbsp; &nbsp;setTimeout(gameLoop, 1000/FPS);<br>}<br>gameLoop();</font></font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 596,
+          "y": 74,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Executa la funció (tarda uns ms)</span><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Espera l'interval (1000/FPS)</span><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Torna a executar la funció</span><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Interval entre crides &gt; 100/FPS</span></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Es poden \"perdre\" cicles</span></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">No s'atura amb si el joc no està actiu</span></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Chrome ho ralentitza fins 1fps</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 559,
+          "y": 497,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><font color=\"#000000\"><span style=\"line-height: normal;\">Crida la funció cada 1000/FPS</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">Es posa en cua si no ha acabat l'anterior</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">Pot consumir el 100% de la CPU</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">Garanteix una animació més fluida</span></font></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 14,
+      "selected": false,
+      "active": false,
+      "x": 2170,
+      "y": 1382
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 505,
+          "y": 116,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">function gameLoop()&nbsp;{<br>&nbsp; &nbsp;processarEntradaUsuari();<br>&nbsp; &nbsp;actualitzarElementsJoc();<br>&nbsp; &nbsp;MostrarJoc();<br>}<br>requestAnimationFrame(gameLoop);</font></font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 101,
+          "y": 348,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><font color=\"#000000\"><span style=\"line-height: normal;\">El navegador només dibuixa el joc quan pot</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">No es fa feina de bades</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">S'atura el procés si la pestanya està inactiva o amagada</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">Permet als navegadors optimitzar el Frame Rate (FPS)</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">Redibuixa totes les animacions una sola vegada</span></font></li><li><font color=\"#000000\"><span style=\"line-height: normal;\">No permet indicar els FPS a que volem actualitzar el joc</span></font></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 168,
+          "y": 32,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>requestAnimationFrame</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 78,
+          "y": 619,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 39,
+          "text": "<font face=\"Lato\" color=\"#000000\">Phaser utilitza rAF si pot i si no fa servir setTimeout<br>Es pot forçar utilitzar setTimeout<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 15,
+      "selected": false,
+      "active": false,
+      "x": 2350,
+      "y": 1173
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 136,
+          "y": 31,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Versió \"òptima\" de setTimeOut</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 16,
+          "y": 128,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\" face=\"Droid Sans Mono, monospace\">var FPS = 60;<br>var darreraCrida = new Date().getTime();<br><br>function gameLoop() {<br>&nbsp; &nbsp;processarEntradaUsuari();<br>&nbsp; &nbsp;actualitzarElementsJoc();<br>&nbsp; &nbsp;MostrarJoc();<br><br>&nbsp; &nbsp;var ara = new Date().getTime();<br>&nbsp; &nbsp;var seguentCrida = Math.max(0, 1000/FPS - (ara - darreraCrida));<br>&nbsp; &nbsp;setTimeout(gameLoop, seguentCrida);<br>&nbsp; &nbsp;darreraCrida = ara + seguentCrida;<br>}<br>gameLoop();<br></font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 134,
+          "y": 627,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Intenta tenir en compte la durada de l'execució</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">S'aproxima al màxim als FPS demanats</span><br></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 16,
+      "selected": false,
+      "active": false,
+      "x": 2540,
+      "y": 1378
+    },
+    {
+      "components": [
+        {
+          "src": "http://phaser.io/images/img.png",
+          "type": "Image",
+          "x": 236,
+          "y": 142,
+          "scale": {
+            "x": 0.8692913385826772,
+            "y": 0.8692913385826772,
+            "width": 552,
+            "height": 473.76377952755905
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 275,
+          "y": 46,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font face=\"Hammersmith One\" color=\"#0ec1f0\">Framework per a Jocs</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 17,
+      "selected": false,
+      "active": false,
+      "x": 338,
+      "y": 914
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 247,
+          "y": 46,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#0ec1f0\" face=\"Hammersmith One\">Totalment en JavaScript</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": -0.6,
+      "rotateY": 0,
+      "rotateZ": 1.22,
+      "index": 18,
+      "selected": false,
+      "active": false,
+      "x": 379,
+      "y": 901
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 184,
+          "y": 41,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#0ec1f0\" face=\"Hammersmith One\">Pot fer servir Canvas o WebGL<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 2.44,
+      "index": 19,
+      "selected": false,
+      "active": false,
+      "x": 357,
+      "y": 940
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 199,
+          "y": 41,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#0ec1f0\" face=\"Hammersmith One\">Diferents sistemes de Física<br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 413,
+          "y": 118,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<div style=\"text-align: center;\"><span style=\"font-family: 'Hammersmith One'; color: rgb(121, 153, 171);\">Arcade Physics</span></div><font color=\"#7999ab\"><b><div style=\"text-align: center;\">P2</div><div style=\"text-align: center;\">Ninja Physics</div><div style=\"text-align: center;\">Box2D (comercial)</div></b></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 3.84,
+      "index": 20,
+      "selected": false,
+      "active": false,
+      "x": 288,
+      "y": 934
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 327,
+          "y": 43,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 48,
+          "text": "<font color=\"#0ec1f0\" face=\"Hammersmith One\"><a href=\"http://phaser.io/\" target=\"_blank\">http://phaser.io/</a><br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 5.24,
+      "index": 21,
+      "selected": false,
+      "active": false,
+      "x": 302,
+      "y": 918
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 532,
+          "y": 48,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#000000\"><b>Informació sobre PHASER</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 45,
+          "y": 154,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Documentació oficial:</span></li></ul><b style=\"color: rgb(0, 0, 0); font-family: Lato;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href=\"http://phaser.io/docs/2.4.6/index\" target=\"_blank\">http://phaser.io/docs/2.4.6/index</a><br></b><ul><li><span style=\"line-height: normal;\">Guies:</span><br></li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><a href=\"http://phaser.io/learn\" target=\"_blank\">http://phaser.io/examples</a></b><br><ul><li>Exemples de codi (molt il·lustratius i útils):</li></ul><span style=\"line-height: 1em;\"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><a href=\"http://phaser.io/examples\" target=\"_blank\" style=\"font-weight: bold; line-height: 1em;\">http://phaser.io/examples</a><br><ul><li><span style=\"line-height: normal;\">Fòrum (molt actiu):</span><br></li></ul></span><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</b><a href=\"http://www.html5gamedevs.com/forum/14-phaser/\" target=\"_blank\" style=\"font-weight: bold;\">http://www.html5gamedevs.com/forum/14-phaser/</a><br><ul><li><span style=\"line-height: normal;\">Cóm començar (guia pas a pas):</span><br></li></ul>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b><a href=\"http://phaser.io/tutorials/making-your-first-phaser-game\" target=\"_blank\">http://phaser.io/tutorials/making-your-first-phaser-game</a></b><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 22,
+      "selected": false,
+      "active": false,
+      "x": 323,
+      "y": 1148
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 265,
+          "y": 137,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 80,
+          "text": "<div style=\"text-align: center;\"><span style=\"color: rgb(0, 0, 0); font-family: Lato;\">Eines per</span></div><font face=\"Lato\" color=\"#000000\"><div style=\"text-align: center;\">desenvolupar</div><div style=\"text-align: center;\">amb</div><div style=\"text-align: center;\">JavaScript</div></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/YWiTF9t.png",
+          "type": "Image",
+          "x": 699,
+          "y": 59,
+          "scale": {
+            "x": 0.11502984264785675,
+            "y": 0.11502984264785675,
+            "width": 212,
+            "height": 129.86869234943026
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": 0.71
+        },
+        {
+          "src": "http://i.imgur.com/J2NJLgW.png",
+          "type": "Image",
+          "x": 75,
+          "y": 69,
+          "scale": {
+            "x": 0.675,
+            "y": 0.675,
+            "width": 243.00000000000003,
+            "height": 94.5
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -0.53
+        },
+        {
+          "src": "http://i.imgur.com/v9yEfA4.png",
+          "type": "Image",
+          "x": -8,
+          "y": 338,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -1.59
+        },
+        {
+          "src": "http://i.imgur.com/Bq5oh2a.png",
+          "type": "Image",
+          "x": 808,
+          "y": 326,
+          "scale": {
+            "x": 0.734375,
+            "y": 0.734375,
+            "width": 188,
+            "height": 188
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/woi6nLW.png",
+          "type": "Image",
+          "x": 369,
+          "y": 551,
+          "scale": {
+            "x": 0.3359375,
+            "y": 0.3359375,
+            "width": 344,
+            "height": 201.5625
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 23,
+      "selected": false,
+      "active": false,
+      "x": 2116,
+      "y": 69
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 147,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"line-height: normal;\">Programa per executar aplicacions JavaScript fora del navegador.</span><br></li><li><span style=\"line-height: normal;\">Runtime JavaScript basat en el motor V8 de Chrome</span><br></li><li><span style=\"line-height: normal;\">Arquitectura orientada a events</span><br></li><li><span style=\"line-height: normal;\">I/O Asíncrona i sense bloquejar els recursos</span><br></li><li><span style=\"line-height: normal;\">Codi Obert, suporta múltiples plataformes</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "src": "https://nodejs.org/en/download",
+          "type": "WebFrame",
+          "x": 22,
+          "y": 371,
+          "scale": {
+            "x": 0.3649828755578928,
+            "y": 0.3649828755578928,
+            "width": 152.9278248587571,
+            "height": 122.2692633118941
+          },
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 395,
+          "y": 325,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 32,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\"><a href=\"https://nodejs.org/en/download\" target=\"_blank\">https://nodejs.org/en/download</a></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 318,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 54,
+          "text": "<font color=\"#000000\"><b>Node.js</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/duxFvUF.png",
+          "type": "Image",
+          "x": -1350,
+          "y": -474,
+          "scale": {
+            "x": 0.6977753662506783,
+            "y": 0.6977753662506783,
+            "width": 1286,
+            "height": 787.7883884970157
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/YWiTF9t.png",
+          "type": "Image",
+          "x": 769,
+          "y": 13,
+          "scale": {
+            "x": 0.11502984264785675,
+            "y": 0.11502984264785675,
+            "width": 212,
+            "height": 129.86869234943026
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 382,
+          "y": 529,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\"><b>$sudo apt-get update</b><br><br></font>$sudo apt-get install curl<br><br><b>$curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -</b><br><br><b>$sudo apt-get install -y nodejs</b><br></font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        },
+        {
+          "TextBox": {},
+          "x": 582,
+          "y": 490,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\">Per Instal·lar-lo a Linux</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 24,
+      "selected": false,
+      "active": false,
+      "x": 2427,
+      "y": 64
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 74,
+          "y": 91,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Node.js Package Manager</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Gestor de Paquets per Node.js i altres entorns</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Gestiona les dependències entre paquets</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Disposa d'una gran quantitat de paquets</span></li></ul><font face=\"Lato\" color=\"#000000\"><br></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/J2NJLgW.png",
+          "type": "Image",
+          "x": 645,
+          "y": 10,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 617,
+          "y": 211,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><a href=\"https://www.npmjs.com/\" target=\"_blank\">https://www.npmjs.com/</a></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/SUjr9o3.jpg",
+          "type": "Image",
+          "x": 26,
+          "y": 284,
+          "scale": {
+            "x": 0.6325301204819277,
+            "y": 0.6325301204819277,
+            "width": 630,
+            "height": 383.31325301204816
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 718,
+          "y": 644,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\">Per Instal·lar-lo a Linux</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 446,
+          "y": 688,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\"><b>$curl -sL https://npmjs.org/install.sh | sudo -E bash -</b></font></font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 25,
+      "selected": false,
+      "active": false,
+      "x": 2111,
+      "y": 272
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 73,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Servidor Web fet amb JavaScript</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">No requereix cap configuració</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Serveix fitxers locals</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Utilitza per defecte el port 8080</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 295,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><a href=\"https://www.npmjs.com/package/http-server\" target=\"_blank\">https://www.npmjs.com/package/http-server</a></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 673,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 52,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>HTTP-Server</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/buMdiNA.png",
+          "type": "Image",
+          "x": 59,
+          "y": 301,
+          "scale": {
+            "x": 0.5220193340494093,
+            "y": 0.5220193340494093,
+            "width": 486,
+            "height": 423.8796992481203
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 690,
+          "y": 493,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\">Per Instal·lar-lo a Linux</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 639,
+          "y": 533,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\"><b>$sudo npm install http-server -g</b></font></font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 26,
+      "selected": false,
+      "active": false,
+      "x": 2426,
+      "y": 274
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 655,
+          "y": 420,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><a href=\"https://git-scm.com/\" target=\"_blank\">https://git-scm.com/</a></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/v9yEfA4.png",
+          "type": "Image",
+          "x": 729,
+          "y": 18,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 76,
+          "y": 95,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Gestor de versions de programari</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Escalable, molt potent i ràpid</span></li><li><font color=\"#000000\" face=\"Lato\"><span style=\"line-height: normal;\">Molt robust per evitar pèrdua de dades</span></font></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Fet per Linus Torvalds (en menys d'una setmana!!)</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/urwSR0U.jpg",
+          "type": "Image",
+          "x": 34,
+          "y": 317,
+          "scale": {
+            "x": 0.5478615071283096,
+            "y": 0.5478615071283096,
+            "width": 538,
+            "height": 428.9755600814664
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 697,
+          "y": 563,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\">Per Instal·lar-lo a Linux</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 679,
+          "y": 603,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\"><b><br>$sudo apt-get install git<br></b></font></font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 27,
+      "selected": false,
+      "active": false,
+      "x": 2106,
+      "y": 499
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 176,
+          "y": 45,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 65,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Brackets</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "src": "http://i.imgur.com/Bq5oh2a.png",
+          "type": "Image",
+          "x": 747,
+          "y": 4,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 65,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Fet amb HTML, CSS i JavaScript</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Editor orientat al desenvolupament Web</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Permet editar codi CSS inline</span></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Desenvolupat per ADOBE</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Open Source (MIT License)</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Live Preview (visualitza en Chrome els canvis fets al codi)</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Permet importar elements i colors des de PhotoShop</span></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 417,
+          "y": 161,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<a href=\"http://brackets.io/\" target=\"_blank\">http://brackets.io/</a><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 406,
+          "y": 604,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\">Per Instal·lar-lo a Linux</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 43,
+          "y": 642,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\"><b>$curl -L -o brackets.deb https://github.com/adobe/brackets/releases/download/release-1.6%2Beb4/Brackets.1.6.Extract.64-bit.deb<br></b></font><br>$sudo dpkg -i brackets.deb</font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 28,
+      "selected": false,
+      "active": false,
+      "x": 2424,
+      "y": 493
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 135,
+          "y": 28,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Presentacions amb HTML5 + CSS3 + JavaScript</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 146,
+          "y": 114,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Es poden visualitzar en qualsevol navegador</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Poden tenir transicions visualment atractives</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Totalment personalitzables</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Fàcils de convertir a altres formats (pdf...)</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Hi ha moltes llibreries per fer presentacions</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/woi6nLW.png",
+          "type": "Image",
+          "x": 631,
+          "y": 354,
+          "scale": {
+            "x": 0.3359375,
+            "y": 0.3359375,
+            "width": 344,
+            "height": 201.5625
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 88,
+          "y": 553,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<a href=\"http://impress.github.io/impress.js/\" target=\"_blank\">http://impress.github.io/impress.js/</a><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 228,
+          "y": 433,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<a href=\"http://strut.io\" target=\"_blank\">http://strut.io</a><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 23,
+          "y": 666,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<a href=\"http://markdalgleish.com/projects/bespoke.js/\" target=\"_blank\">http://markdalgleish.com/projects/bespoke.js/</a><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 29,
+      "selected": false,
+      "active": false,
+      "x": 2204,
+      "y": 727
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 119,
+          "y": 90,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font color=\"#000000\" face=\"Lato\"><b>Editors HTML WYSIWYG OnLine</b></font><br>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 62,
+          "y": 279,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Permeten editar documents HTML sense instal·lar res</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Fets amb JavaScript</span><br></li><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Podem copiar el codi HTML generat</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 254,
+          "y": 514,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><a href=\"http://htmleditor.in/index.html\" target=\"_blank\">http://htmleditor.in/index.html</a></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 54,
+          "y": 612,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<a href=\"http://www.html.am/html-editors/online-html-editor.cfm\" target=\"_blank\">http://www.html.am/html-editors/online-html-editor.cfm</a><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/qtdvBil.png",
+          "type": "Image",
+          "x": 771,
+          "y": 11,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 30,
+      "selected": false,
+      "active": false,
+      "x": 2544,
+      "y": 725
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 85,
+          "y": 84,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 46,
+          "text": "<font color=\"#000000\" face=\"Lato\"><b>Eines WYSIWYG CSS3 OnLine</b></font><br>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 98,
+          "y": 277,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<ul><li><font color=\"#000000\" face=\"Lato\"><span style=\"line-height: normal;\">Ajuden a crear el codi CSS pels estils</span></font></li><li><font color=\"#000000\" face=\"Lato\"><span style=\"line-height: normal;\">Simplifiquen obtenir resultats efectius</span></font></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 278,
+          "y": 514,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><a href=\"http://www.css3generator.in/\" target=\"_blank\">http://www.css3generator.in/</a><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 354,
+          "y": 612,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<a href=\"http://css3gen.com/\" target=\"_blank\">http://css3gen.com/</a><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/pwcnJie.png",
+          "type": "Image",
+          "x": 820,
+          "y": 17,
+          "scale": {
+            "x": 0.4493150684931506,
+            "y": 0.4493150684931506,
+            "width": 163.99999999999997,
+            "height": 230.04931506849312
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 31,
+      "selected": false,
+      "active": false,
+      "x": 2364,
+      "y": 942
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 65,
+          "y": 491,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 46,
+          "text": "<font face=\"PressStart2P, cursive\" color=\"#e9f482\">INSERT COIN TO START</font><br>",
+          "selected": false,
+          "customClasses": "blink"
+        },
+        {
+          "TextBox": {},
+          "x": 82,
+          "y": 132,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 100,
+          "text": "<font color=\"#e9f482\" face=\"PressStart2P, cursive\">ASTEROIDS</font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 201,
+          "y": 328,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 573,
+          "y": 411,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 834,
+          "y": 645,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 142,
+          "y": 598,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 823,
+          "y": 293,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 932,
+          "y": 68,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 453,
+          "y": 237,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 68,
+          "y": 20,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 525,
+          "y": 694,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": -0.28,
+      "rotateZ": 0,
+      "index": 32,
+      "selected": false,
+      "active": false,
+      "background": "img:http://i.imgur.com/GhnLAeB.png",
+      "x": 2956,
+      "y": 408
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 113,
+          "y": 42,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 34,
+          "text": "<font color=\"#000000\">Instal·lar totes les eines per desenvolupar</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 40,
+          "y": 115,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font color=\"#000000\" face=\"Droid Sans Mono, monospace\"><br>$sudo apt-get update<br><br>$sudo apt-get install curl<br><br>$curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -<br><br>$sudo apt-get install -y nodejs<br><br>$curl -sL https://npmjs.org/install.sh | sudo -E bash -<br><br>$sudo npm install http-server -g<br><br>$curl -L -o brackets.deb https://github.com/adobe/brackets/releases/download/release-1.6%2Beb4/Brackets.1.6.Extract.64-bit.deb<br><br>$sudo dpkg -i brackets.deb<br><br>$sudo apt-get install git<br></font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        },
+        {
+          "TextBox": {},
+          "x": 442,
+          "y": 562,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font color=\"#000000\">Agafar el repositori GitHub amb tot el codi</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 414,
+          "y": 597,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><br>$git clone https://github.com/jaumeramos/asteroids<br></font><br>",
+          "selected": false,
+          "customClasses": "cmd"
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -1.57,
+      "index": 33,
+      "selected": false,
+      "active": false,
+      "x": 2756,
+      "y": 234
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 151,
+          "y": 22,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 49,
+          "text": "<font color=\"#333333\" face=\"Hammersmith One, sans-serif\">Passos per programar Asteroids</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 171,
+          "y": 107,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 17,
+          "text": "<font face=\"Droid Sans Mono\">1. Carregar el fons i animar-lo<br><br>2. Dibuixar la nau i associar-li el motor de la física ARCADE<br><br>3. Controlar el moviment de la nau amb els cursors<br><br>4. Controlar la sortida de la nau per la pantalla, <br>&nbsp; &nbsp;de forma que torni a entrar per la part oposada.<br><br>5. Fer que la nau dispari al prémer la tecla espai. <br>&nbsp; &nbsp;Hi ha d'haver un nombre limitat de bales, i han de tenir <br>&nbsp; &nbsp;un temps de vida fins que desapareixien, per evitar omplir <br>&nbsp; &nbsp;la pantalla de bales. Cal deixar un temps entre bala i bala. &nbsp;<br><br>6. Fer aparèixer un asteroide cada segon, controlant que no <br>&nbsp; &nbsp;surti massa prop de la nau. Cal revisar que si l'asteroide <br>&nbsp; &nbsp;surt de la pantalla torni a aparèixer per l'altra banda.<br><br>7. Determinar si hi ha col·lisions bala-asteroide, i si n'hi ha <br>&nbsp; &nbsp;mostrar una explosió i actualitzar la puntuació del joc.<br><br>8. Determinar si hi ha col·lisions nau-asteroide, i si n'hi ha <br>&nbsp; &nbsp;mostrar una explosió i restar una vida.<br><br>9. Mostrar la puntuació del joc i el nombre de vides restant.<br><br>10. Aturar el joc quan no quedin més vides.<br></font><br>",
+          "selected": false,
+          "customClasses": "quadreBlauClar"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 34,
+      "selected": false,
+      "active": false,
+      "x": 2731,
+      "y": 414
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 105,
+          "y": 24,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Crear un joc amb PHASER</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 95,
+          "y": 151,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 17,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">var game = new Phaser.Game(<br>&nbsp; &nbsp; 800, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// Amplada del joc window.innerWidth fa que ocupi tot l'ample<br>&nbsp; &nbsp; 600, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// Alçada del joc window.innerHeight fa que ocupi tot l'alt<br>&nbsp; &nbsp; Phaser.AUTO, &nbsp;// Renderer a fer servir (CANVAS o WEBGL)<br>&nbsp; &nbsp; '', &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Element HTML on posa el canvas. Si no s'indica és &lt;body&gt;<br></font>&nbsp; &nbsp; {<br>&nbsp; &nbsp; &nbsp; &nbsp; init: &nbsp; &nbsp;ferInit, &nbsp; &nbsp; // &nbsp;Codi per inicialitzar el joc<br>&nbsp; &nbsp; &nbsp; &nbsp; preload: ferPreload, &nbsp;// &nbsp;Codi per carregar els elements gràfics<br>&nbsp; &nbsp; &nbsp; &nbsp; create: &nbsp;ferCreate, &nbsp; // &nbsp;Codi per crear la situació inicial del joc<br>&nbsp; &nbsp; &nbsp; &nbsp; update: &nbsp;ferUpdate, &nbsp; // &nbsp;Game Loop, codi que es repeteix a 60 FPS<br>&nbsp; &nbsp; &nbsp; &nbsp; render: &nbsp;ferRender &nbsp; &nbsp;// &nbsp;<br>&nbsp; &nbsp; }<br>);<br><br></font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 41,
+          "y": 540,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 20,
+          "text": "<font color=\"#000000\">Phaser permet definir diferents estats per un joc. Cada estat té els seus mètodes init, preload, create i update.<br>En aquest tutorial només farem servir un únic estat pel nostre joc.<br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 35,
+      "selected": false,
+      "active": false,
+      "x": 2968,
+      "y": 258
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 174,
+          "y": 94,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 176,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 31,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\"><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 50,
+          "y": 50,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\">HTML amb les funcions de PHASER</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 36,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 2964,
+      "y": 571
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 62,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 41,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Àmbit de les variables en JavaScript</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 377,
+          "y": 76,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<font face=\"Lato\" color=\"#000000\">(Cal aclarir-ho o ens pot donar algun bon maldecap!!!)</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 153,
+          "y": 121,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Global:</b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 107,
+          "y": 275,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Local:</b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 20,
+          "y": 463,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Bloc:</b></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 193,
+          "y": 170,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Variables definides amb <b>var</b> fora d'una funció</span><br></li><li><span style=\"line-height: normal;\">Qualsevol variable no definida esdevé global de forma implícita!!</span><br></li><li><span style=\"line-height: normal;\"><b>MOLT amb compte! Podem modificar accidentalment variables alienes!</b></span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 147,
+          "y": 336,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Variables definides amb var dins de qualsevol funció</span><br></li><li><span style=\"line-height: normal;\">Es pot fer servir el mateix nom en diferents funcions</span></li><li><span style=\"line-height: normal;\">TOTES les variables es defineixen a l'inici de la funció</span></li></ul><br><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 60,
+          "y": 507,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<ul><li><font color=\"#000000\" face=\"Lato\"><span style=\"line-height: normal;\">No es poden definir variables a nivell de bloc!</span></font></li></ul><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 566,
+          "y": 550,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 17,
+          "text": "<font face=\"Droid Sans Mono, monospace\">var v1 = 0; &nbsp; &nbsp;// GLOBAL<br><br>function f(){<br>&nbsp; &nbsp;v1=3; &nbsp; &nbsp; &nbsp; // LOCAL (definida baix)&nbsp;<br>&nbsp; &nbsp;var v1 = 2; // LOCAL amaga la V.Global<br>&nbsp; &nbsp;v2 = 3; &nbsp; &nbsp; // GLOBAL implícitament<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 37,
+      "selected": false,
+      "active": false,
+      "x": 3200,
+      "y": 413
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 108,
+          "y": 49,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 1</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 356,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\">// Variables pel fons del joc<br>var fonsNebulosa, fonsPedres;<br>&nbsp; &nbsp; &nbsp; &nbsp;<br>// Crea el joc i associa les funcions de Callback<br>var game = new Phaser.Game(600, 800, Phaser.AUTO, '',<br>&nbsp; &nbsp; {preload: ferPreload, create: ferCreate, update: ferUpdate});<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>function ferPreload(){<br><br>&nbsp; &nbsp; // Carrega els elements gràfics pel fons<br>&nbsp; &nbsp; game.load.image('nebulosa', 'assets/nebulosa.png');<br>&nbsp; &nbsp; game.load.image('pedres', 'assets/pedres.png');<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>}<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>function ferCreate(){<br><br>&nbsp; &nbsp; //  Posa el fons del joc<br>&nbsp; &nbsp; game.stage.backgroundColor = '#000000';<br>&nbsp; &nbsp; fonsNebulosa = game.add.tileSprite(0, 0,&nbsp;<br>&nbsp; &nbsp; &nbsp;game.width, game.height, 'nebulosa');<br>&nbsp; &nbsp; fonsPedres = game.add.tileSprite(0, 0,&nbsp;<br>&nbsp; &nbsp; &nbsp;game.width, game.height, 'pedres');<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>}<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>function ferUpdate(){<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; &nbsp; //  Mou cap cap a la dreta les pedres<br>&nbsp; &nbsp; fonsPedres.tilePosition.x += 0.5;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>}<br></font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 30,
+          "y": 166,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 39,
+          "text": "<div style=\"text-align: center;\">Carregar el fons&nbsp;</div><div style=\"text-align: center;\">i animar-lo</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 38,
+      "selected": false,
+      "active": false,
+      "x": 3547,
+      "y": 64
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 231,
+          "y": 42,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Previsualitzar el codi amb Brackets</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 38,
+          "y": 119,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 37,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Només funciona amb Chrome</span><br></li><li>Permet veure immediatament el resultat</li><li>Obre una nova finestra del navegador</li></ul><font face=\"Lato\" color=\"#000000\"><br></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/eYOuNmK.jpg",
+          "type": "Image",
+          "x": 37,
+          "y": 289,
+          "scale": {
+            "x": 0.5185185185185185,
+            "y": 0.5185185185185185,
+            "width": 406,
+            "height": 443.85185185185185
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/J1Cr2vC.jpg",
+          "type": "Image",
+          "x": 585,
+          "y": 244,
+          "scale": {
+            "x": 0.5623987034035657,
+            "y": 0.5623987034035657,
+            "width": 347,
+            "height": 497.7228525121556
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/hcTAXsH.png",
+          "type": "Image",
+          "x": 428,
+          "y": 229,
+          "scale": {
+            "x": 0.62,
+            "y": 0.62,
+            "width": 155,
+            "height": 155
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "rotate": -3.15,
+          "skewY": 0.69
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 39,
+      "selected": false,
+      "active": false,
+      "x": 3827,
+      "y": 63
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 126,
+          "y": 46,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 2</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 356,
+          "y": 20,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\">// Variable per la nau<br>var nau;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>function ferPreload(){&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; // Carrega la imatge de la nau. Hi ha dos imatges:&nbsp;<br>&nbsp; //una quan acelera i l'altra amb els motors apagats<br>&nbsp; game.load.spritesheet('nau', 'assets/nau-x2.png', 90, 90);<br>}<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>function ferCreate(){&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp; // Inicialitza el motor de física ARCADE<br>&nbsp; game.physics.startSystem(Phaser.Physics.ARCADE);<br><br>&nbsp; // Dibuixa la nau<br>&nbsp; nau = game.add.sprite(game.width / 2, game.height / 2, 'nau');<br><br>&nbsp; // Indica el punt de referència de la nau<br>&nbsp; nau.anchor.x = 0.5;<br>&nbsp; nau.anchor.y = 0.5;<br><br>&nbsp; // Associa el motor físic amb la nau per controlar-la<br>&nbsp; game.physics.enable(nau, Phaser.Physics.ARCADE);<br><br>&nbsp; // Defineix el fregament de la nau<br>&nbsp; nau.body.drag.set(100);<br>&nbsp; nau.body.angularDrag = 200;<br><br>&nbsp; // Defineix la màxima velocitat de la nau<br>&nbsp; nau.body.maxAngular = 200;<br>&nbsp; nau.body.maxVelocity.set(200);<br>}&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>function ferUpdate(){&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>&nbsp;//  Mou cap cap a la dreta les pedres<br>&nbsp;fonsPedres.tilePosition.x += 0.5;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 16,
+          "y": 149,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 35,
+          "text": "<div style=\"text-align: center;\">Dibuixar la nau i&nbsp;</div><div style=\"text-align: center;\">associar-li el motor</div><div style=\"text-align: center;\">de la física ARCADE</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 40,
+      "selected": false,
+      "active": false,
+      "x": 3651,
+      "y": 249
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 174,
+          "y": 94,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 176,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 31,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\"><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 50,
+          "y": 50,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\">HTML amb els cursors de PHASER</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 41,
+      "selected": false,
+      "active": false,
+      "markdown": "",
+      "x": 3911,
+      "y": 244
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 100,
+          "y": 49,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 3</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 323,
+          "y": 20,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\">// Variables per les tecles que controlen el joc<br>var acelerar, girarDreta, girarEsquerra, disparar;<br>&nbsp;<br>function ferCreate() {&nbsp;<br>&nbsp; &nbsp;acelerar = game.input.keyboard.addKey(Phaser.Keyboard.UP);<br>&nbsp; &nbsp;acelerar.onDown.add(function() {<br>&nbsp; &nbsp; &nbsp; &nbsp;game.physics.arcade.accelerationFromRotation(<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; nau.rotation, 200, nau.body.acceleration<br>&nbsp; &nbsp; &nbsp; &nbsp;);<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.frame = 1;<br>&nbsp; &nbsp;});<br>&nbsp; &nbsp;acelerar.onUp.add(function() {<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.body.acceleration.set(0, 0);<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.frame = 0;<br>&nbsp; &nbsp;});<br>&nbsp; &nbsp;girarDreta = game.input.keyboard.addKey(Phaser.Keyboard.RIGHT);<br>&nbsp; &nbsp;girarDreta.onDown.add(function() {<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.body.angularAcceleration = 100;<br>&nbsp; &nbsp;});<br>&nbsp; &nbsp;girarDreta.onUp.add(function() {<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.body.angularAcceleration = 0;<br>&nbsp; &nbsp;});<br>&nbsp; &nbsp;girarEsquerra = game.input.keyboard.addKey(Phaser.Keyboard.LEFT);<br>&nbsp; &nbsp;girarEsquerra.onDown.add(function() {<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.body.angularAcceleration = -100;<br>&nbsp; &nbsp;});<br>&nbsp; &nbsp;girarEsquerra.onUp.add(function() {<br>&nbsp; &nbsp; &nbsp; &nbsp;nau.body.angularAcceleration = 0;<br>&nbsp; &nbsp;});<br>&nbsp;<br>&nbsp; &nbsp;// Evita que les tecles es propaguin al navegador<br>&nbsp; &nbsp;this.game.input.keyboard.addKeyCapture([Phaser.Keyboard.UP,<br>&nbsp; &nbsp; &nbsp; &nbsp; Phaser.Keyboard.RIGHT, Phaser.Keyboard.LEFT<br>&nbsp; &nbsp;]);<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 28,
+          "y": 165,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 41,
+          "text": "<div style=\"text-align: center;\">Controlar el&nbsp;</div><div style=\"text-align: center;\">moviment de&nbsp;</div><div style=\"text-align: center;\">la nau amb&nbsp;</div><div style=\"text-align: center;\">els cursors</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 42,
+      "selected": false,
+      "active": false,
+      "x": 4099,
+      "y": 65
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 152,
+          "y": 65,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 4</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 435,
+          "y": 83,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 19,
+          "text": "<font face=\"Droid Sans Mono, monospace\">function ferUpdate() {<br><br>&nbsp; &nbsp; // Verifica si la nau surt de la pantalla<br>&nbsp; &nbsp; surtPantalla(nau);<br><br>}<br><br><br>function surtPantalla(sprite) {<br><br>&nbsp; &nbsp; // Comprova si surt horitzontalment<br>&nbsp; &nbsp; if (sprite.x &lt; 0) {<br>&nbsp; &nbsp; &nbsp; &nbsp; sprite.x = game.width;<br>&nbsp; &nbsp; } else if (sprite.x &gt; game.width) {<br>&nbsp; &nbsp; &nbsp; &nbsp; sprite.x = 0;<br>&nbsp; &nbsp; }<br><br>&nbsp; &nbsp; // Comprova si surt verticalment<br>&nbsp; &nbsp; if (sprite.y &lt; 0) {<br>&nbsp; &nbsp; &nbsp; &nbsp; sprite.y = game.height;<br>&nbsp; &nbsp; } else if (sprite.y &gt; game.height) {<br>&nbsp; &nbsp; &nbsp; &nbsp; sprite.y = 0;<br>&nbsp; &nbsp; }<br><br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 38,
+          "y": 179,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 31,
+          "text": "<div style=\"text-align: center;\">Controlar la sortida de la&nbsp;</div><div style=\"text-align: center;\">nau per la pantalla, de&nbsp;</div><div style=\"text-align: center;\">forma que torni a entrar&nbsp;</div><div style=\"text-align: center;\">per la part oposada.</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 43,
+      "selected": false,
+      "active": false,
+      "x": 4358,
+      "y": 60
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 87,
+          "y": 54,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 5</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 306,
+          "y": 35,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\">function ferPreload() {<br>&nbsp; &nbsp; // Carrega la imatge de una bala<br>&nbsp; &nbsp; game.load.image('bala', 'assets/bala.png');<br>}<br><br>function ferCreate() {<br>&nbsp; &nbsp; //  Crea un conjunt de bales amb 30 bales<br>&nbsp; &nbsp; bales = game.add.group();<br>&nbsp; &nbsp; bales.enableBody = true;<br>&nbsp; &nbsp; bales.physicsBodyType = Phaser.Physics.ARCADE;<br>&nbsp; &nbsp; bales.createMultiple(30, 'bala');<br>&nbsp; &nbsp; bales.setAll('anchor.x', 0.5);<br>&nbsp; &nbsp; bales.setAll('anchor.y', 1);<br><br>&nbsp; &nbsp; // Controla la tecla per disparar<br>&nbsp; &nbsp; disparar = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);<br>&nbsp; &nbsp; disparar.onHoldCallback = function (e) {<br>&nbsp; &nbsp; &nbsp; &nbsp; if (game.time.now &gt; seguentBala) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; bala = bales.getFirstExists(false); // Reviu una bala<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (bala) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; bala.reset(nau.body.x + (nau.body.width / 2),<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;nau.body.y + (nau.body.height / 2));<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; bala.lifespan = 1000; // Temps de vida (1seg)<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; bala.rotation = nau.rotation;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; game.physics.arcade.velocityFromRotation(<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;nau.rotation, 400, bala.body.velocity);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; seguentBala = game.time.now + 80; // Espera 80ms&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; };<br><br>&nbsp; &nbsp; // Evita que les tecles es propaguin al navegador<br>&nbsp; &nbsp; this.game.input.keyboard.addKeyCapture([Phaser.Keyboard.SPACEBAR]);<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 7,
+          "y": 181,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 23,
+          "text": "<div style=\"text-align: center;\">Fer que la nau dispari&nbsp;</div><div style=\"text-align: center;\">al prémer la tecla espai.&nbsp;</div><div style=\"text-align: center;\">Hi ha d'haver un nombre&nbsp;</div><div style=\"text-align: center;\">limitat de bales, i han de&nbsp;</div><div style=\"text-align: center;\">tenir un temps de vida&nbsp;</div><div style=\"text-align: center;\">fins que desapareixien,&nbsp;per&nbsp;</div><div style=\"text-align: center;\">evitar omplir la pantalla&nbsp;</div><div style=\"text-align: center;\">de bales.&nbsp;</div><div style=\"text-align: center;\">Cal deixar un temps entre&nbsp;</div><div style=\"text-align: center;\">bala i bala. &nbsp;</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 44,
+      "selected": false,
+      "active": false,
+      "x": 4204,
+      "y": 236
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 107,
+          "y": 51,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 6</font>",
+          "selected": false,
+          "skewX": 0.09,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 361,
+          "y": 18,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 13,
+          "text": "<font face=\"Droid Sans Mono, monospace\">// Variable pel conjunt d'asteroides<br>var asteroides;<br>// Variable per demorar un temps fins el següent asteroide<br>var seguentAsteroide = 0;<br><br>function ferPreload() {<br>&nbsp; &nbsp; // Carrega la imatge de un asteroide<br>&nbsp; &nbsp; game.load.image('asteroide', 'assets/asteroide.png');<br>}<br><br>function ferCreate() {<br>&nbsp; &nbsp; // Crea conjunt d'asteroides amb 12 asteroides<br>&nbsp; &nbsp; asteroides = game.add.group();<br>&nbsp; &nbsp; asteroides.enableBody = true;<br>&nbsp; &nbsp; asteroides.physicsBodyType = Phaser.Physics.ARCADE;<br>&nbsp; &nbsp; asteroides.createMultiple(12, 'asteroide');<br>&nbsp; &nbsp; asteroides.setAll('anchor.x', 0.5);<br>&nbsp; &nbsp; asteroides.setAll('anchor.y', 0.5);<br>}<br><br>function ferUpdate() {<br>&nbsp; &nbsp; // Comprova el temporitzador per crear un nou asteroide<br>&nbsp; &nbsp; if (game.time.now &gt; seguentAsteroide &amp;&amp; nau.alive) {<br>&nbsp; &nbsp; &nbsp; &nbsp; creaAsteroide();<br>&nbsp; &nbsp; }<br>&nbsp; &nbsp; // Verifica que no surtin de la pantalla<br>&nbsp; &nbsp; asteroides.forEachExists(surtPantalla, this);<br>}<br><br>function creaAsteroide() {<br>&nbsp; &nbsp; var asteroide = asteroides.getFirstExists(false);<br>&nbsp; &nbsp; if (asteroide) {<br>&nbsp; &nbsp; &nbsp; &nbsp; //  Evita que l'asteroide surti massa prop de la nau<br>&nbsp; &nbsp; &nbsp; &nbsp; do {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; asteroide.reset(game.rnd.integerInRange(0, game.width),<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; game.rnd.integerInRange(0, game.height));<br>&nbsp; &nbsp; &nbsp; &nbsp; } while (game.physics.arcade.distanceBetween(asteroide, nau) &lt; 100);<br><br>&nbsp; &nbsp; &nbsp; &nbsp; asteroide.body.angularVelocity = game.rnd.integerInRange(-300, 300);<br>&nbsp; &nbsp; &nbsp; &nbsp; asteroide.body.velocity.setTo(game.rnd.integerInRange(-30, 60),<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; game.rnd.integerInRange(-30, 60));<br>&nbsp; &nbsp; &nbsp; &nbsp; seguentAsteroide = game.time.now + 1000;<br>&nbsp; &nbsp; }<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 34,
+          "y": 161,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 22,
+          "text": "<div style=\"text-align: center;\">Fer aparèixer un asteroide&nbsp;</div><div style=\"text-align: center;\">cada segon, controlant que&nbsp;</div><div style=\"text-align: center;\">no surti massa prop de la nau.&nbsp;</div><div style=\"text-align: center;\">Cal revisar que si l'asteroide&nbsp;</div><div style=\"text-align: center;\">surt de la pantalla torni a&nbsp;</div><div style=\"text-align: center;\">aparèixer per l'altra banda.</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 45,
+      "selected": false,
+      "active": false,
+      "x": 4156,
+      "y": 425
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 61,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 7</font>",
+          "selected": false,
+          "skewX": 0,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 224,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\">// Variable pel conjunt d'explosions<br>var explosions;<br><br>function ferPreload() {<br>&nbsp; &nbsp; // Carrega la imatge per fer una explosió<br>&nbsp; &nbsp; game.load.spritesheet('explosio', 'assets/explosio.png', 128, 128);<br>}<br><br>function ferCreate() {<br>&nbsp; &nbsp; // Crea conjunt d'explosions &nbsp;<br>&nbsp; &nbsp; explosions = game.add.group();<br>&nbsp; &nbsp; explosions.createMultiple(12, 'explosio');<br>&nbsp; &nbsp; explosions.setAll('anchor.x', 0.5);<br>&nbsp; &nbsp; explosions.setAll('anchor.y', 0.5);<br>&nbsp; &nbsp; explosions.forEach(function (explosio) {<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio.animations.add('explosio');<br>&nbsp; &nbsp; }, this);<br>}<br><br>function ferUpdate() {<br>&nbsp; &nbsp; //  Revisa les colisions entre el grup de bales i el grup d'asteroides<br>&nbsp; &nbsp; game.physics.arcade.overlap(bales, asteroides, function (bala, asteroide) {<br>&nbsp; &nbsp; &nbsp; &nbsp; //  Amaga la bala i l'asteroide<br>&nbsp; &nbsp; &nbsp; &nbsp; bala.kill();<br>&nbsp; &nbsp; &nbsp; &nbsp; asteroide.kill();<br>&nbsp; &nbsp; &nbsp; &nbsp; //  Crea una explosió<br>&nbsp; &nbsp; &nbsp; &nbsp; var explosio = explosions.getFirstExists(false);<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio.reset(asteroide.body.x, asteroide.body.y);<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio.play('explosio', 30, false, true);<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio.kill;<br>&nbsp; &nbsp; &nbsp; &nbsp; //  Suma punts<br>&nbsp; &nbsp; &nbsp; &nbsp; punts += 10;<br>&nbsp; &nbsp; }, null, this);<br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 9,
+          "y": 190,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<div style=\"text-align: center;\">Determinar si&nbsp;</div><div style=\"text-align: center;\">hi ha col·lisions&nbsp;</div><div style=\"text-align: center;\">bala-asteroide, i&nbsp;</div><div style=\"text-align: center;\">si n'hi ha mostrar&nbsp;</div><div style=\"text-align: center;\">una explosió i&nbsp;</div><div style=\"text-align: center;\">actualitzar la&nbsp;</div><div style=\"text-align: center;\">puntuació del joc.</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 46,
+      "selected": false,
+      "active": false,
+      "x": 3842,
+      "y": 430
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 67,
+          "y": 58,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 8</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 248,
+          "y": 104,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><br>// Variable per comptar les vides que ens queden<br>var vides = 3;<br><br>function ferUpdate() {<br><br>&nbsp; &nbsp; // Revisa les colisions entre nau i asteroides &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; game.physics.arcade.overlap(nau, asteroides, function (nau, asteroide) {<br>&nbsp; &nbsp; &nbsp; &nbsp; // Fa desapareixer l'asteroide<br>&nbsp; &nbsp; &nbsp; &nbsp; asteroide.kill();<br>&nbsp; &nbsp; &nbsp; &nbsp; // Mostra una explosicó<br>&nbsp; &nbsp; &nbsp; &nbsp; var explosio = explosions.getFirstExists(false);<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio.reset(asteroide.body.x, asteroide.body.y);<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio.play('explosio', 30, false, true);<br>&nbsp; &nbsp; &nbsp; &nbsp; vides--;<br>&nbsp; &nbsp; }, null, this);<br><br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        },
+        {
+          "TextBox": {},
+          "x": 21,
+          "y": 214,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 24,
+          "text": "<div style=\"text-align: center;\">Determinar si hi&nbsp;</div><div style=\"text-align: center;\">ha col·lisions&nbsp;</div><div style=\"text-align: center;\">nau-asteroide, i&nbsp;</div><div style=\"text-align: center;\">si n'hi ha mostrar&nbsp;</div><div style=\"text-align: center;\">una explosió i&nbsp;</div><div style=\"text-align: center;\">restar una vida.</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 47,
+      "selected": false,
+      "active": false,
+      "x": 3977,
+      "y": 637
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 109,
+          "y": 69,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 9</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 187,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 39,
+          "y": 236,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "<div style=\"text-align: center;\">Mostrar la puntuació&nbsp;</div><div style=\"text-align: center;\">del joc i el nombre de&nbsp;</div><div style=\"text-align: center;\">vides restant.</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        },
+        {
+          "TextBox": {},
+          "x": 334,
+          "y": 86,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<font face=\"Droid Sans Mono, monospace\">var textPunts, textVides;<br><br>function ferCreate() {<br><br>&nbsp; &nbsp; //  Afegim la informació dels punts i les vides<br>&nbsp; &nbsp; textPunts = game.add.text(10, 10, \"Punts: \" + punts, {<br>&nbsp; &nbsp; &nbsp; &nbsp; font: '34px Arial',<br>&nbsp; &nbsp; &nbsp; &nbsp; fill: '#fff'<br>&nbsp; &nbsp; });<br>&nbsp; &nbsp; textVides = game.add.text(game.width-150, 10, \"Vides: \"+vides, {<br>&nbsp; &nbsp; &nbsp; &nbsp; font: '34px Arial',<br>&nbsp; &nbsp; &nbsp; &nbsp; fill: '#fff'<br>&nbsp; &nbsp; });<br><br>}<br><br><br>function ferUpdate() {<br><br>&nbsp; &nbsp; //  Afegim la informació dels punts i les vides<br>&nbsp; &nbsp; textPunts.text = \"Punts: \" + punts;<br>&nbsp; &nbsp; textVides.text = \"Vides: \" + vides;<br><br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 48,
+      "selected": false,
+      "active": false,
+      "x": 3524,
+      "y": 434
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 102,
+          "y": 63,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 10</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 187,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 36,
+          "y": 196,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "<div style=\"text-align: center;\">Aturar el joc quan&nbsp;</div><div style=\"text-align: center;\">no quedin més vides.</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        },
+        {
+          "TextBox": {},
+          "x": 334,
+          "y": 83,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 14,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><br><br>function ferUpdate() {<br>&nbsp; &nbsp; /* Step_8 */\n<br>&nbsp; &nbsp; // Revisa les colisions entre nau i asteroides &nbsp; &nbsp; &nbsp; &nbsp;<br>&nbsp; &nbsp; game.physics.arcade.overlap(nau, asteroides, function (nau, asteroide) {<br><br>&nbsp; &nbsp; &nbsp; &nbsp; .......<br>\n<br><b>&nbsp; &nbsp; &nbsp; &nbsp; /* Step_10 */\n<br>&nbsp; &nbsp; &nbsp; &nbsp; if (vides &lt;= 0) {\t\t\t\t\n<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;textEstat = game.add.text(game.world.centerX, <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;game.world.centerY, <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;'GAME OVER', <br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{font: '30px Arial', fill: '#fff'}<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; );\n<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;textEstat.anchor.setTo(0.5, 0.5);\n<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;asteroides.callAll('kill');\n<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;nau.kill();\n<br>&nbsp; &nbsp; &nbsp; &nbsp; }</b><br>&nbsp; &nbsp; }, null, this);<br><br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 49,
+      "selected": false,
+      "active": false,
+      "x": 3609,
+      "y": 641
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 321,
+          "y": 27,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 56,
+          "text": "<font color=\"#000000\"><b>Controls tàctils</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 90,
+          "y": 142,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 41,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Cal trobar formes senzilles i intuïtives</span><br></li><li><span style=\"line-height: normal;\">Dividirem la pantalla en dos zones</span><br></li><li><span style=\"line-height: normal;\">La zona dreta per disparar</span><br></li><li><span style=\"line-height: normal;\">La zona esquerra per controlar el moviment</span><br></li></ul>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/2Jwcbc6.png",
+          "type": "Image",
+          "x": 366,
+          "y": 412,
+          "scale": {
+            "x": 0.52,
+            "y": 0.52,
+            "width": 416,
+            "height": 312
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 697,
+          "y": 411,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 27,
+          "text": "<font face=\"Lato\" color=\"#e30808\">Al tocar la nau dispara</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 121,
+          "y": 417,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 27,
+          "text": "<font face=\"Lato\"><font color=\"#15c327\">L'angle amb la posició inicial<br>indica la direcció<br><br>La distància a la posició<br>inicial indica la velocitat</font><br></font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 50,
+      "selected": false,
+      "active": false,
+      "x": 3403,
+      "y": 833
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 211,
+          "y": 27,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>Depurar el codi en un dispositiu mòbil</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 123,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 32,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Cal connectar el dispositiu mòbil per USB</span><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Anar a la pàgina </span><a href=\"http://chrome://inspect/#devices\" target=\"_blank\" style=\"line-height: normal;\">http://chrome://inspect/#devices</a><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Escollir el dispositiu i la pestanya a monitoritzar</span><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">Al dispositiu acceptar la petició per depurar</span><br></li><li><span style=\"color: rgb(0, 0, 0); line-height: normal;\">S'obre una nova finestra chrome amb les eines de depuració</span></li></ul><font color=\"#000000\"><br></font>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/PDhacx6.jpg",
+          "type": "Image",
+          "x": 16,
+          "y": 359,
+          "scale": {
+            "x": 0.6873920552677029,
+            "y": 0.6873920552677029,
+            "width": 397.99999999999994,
+            "height": 234.40069084628666
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/xJj7vcB.jpg",
+          "type": "Image",
+          "x": 429,
+          "y": 534,
+          "scale": {
+            "x": 0.5845511482254697,
+            "y": 0.5845511482254697,
+            "width": 560,
+            "height": 206.9311064718163
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/AtCDi34.png",
+          "type": "Image",
+          "x": 300,
+          "y": 592,
+          "scale": {
+            "x": 0.52,
+            "y": 0.52,
+            "width": 130,
+            "height": 130
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 51,
+      "selected": false,
+      "active": false,
+      "x": 3571,
+      "y": 1026
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 56,
+          "y": 90,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 11 (a)</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 187,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 36,
+          "y": 239,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "<div style=\"text-align: center;\">Controls tàctils</div><div style=\"text-align: center;\">per dispositius</div><div style=\"text-align: center;\">mòbils!!!</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        },
+        {
+          "TextBox": {},
+          "x": 273.20979421584514,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono, monospace\">// Variables pels controls tàctils<br>var touchDreta, touchEsquerra,<br>&nbsp; &nbsp; cercleEsquerra, cercleDreta<br>&nbsp; &nbsp; touchEsquerraPosInicial = new Phaser.Point(0, 0);<br><br>function ferCreate() {<br>&nbsp; &nbsp; /* Step_11 */<br>&nbsp; &nbsp; // Defineix els callbacks pels dispositius mòbils<br>&nbsp; &nbsp; if (game.device.desktop === false) {<br>&nbsp; &nbsp; &nbsp; &nbsp; game.input.onDown.add(function (punter) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (punter.pointerMode == 3 || punter.punterMode == Phaser.PointerMode.CONTACT) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (punter.positionDown.x &lt; game.world.centerX &amp;&amp; !touchEsquerra) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; touchEsquerra = punter;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; touchEsquerraPosInicial.copyFrom(punter.positionDown);<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } else if (punter.positionDown.x &gt; 100 /*game.world.centerY*/ &amp;&amp; !touchDreta) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; touchDreta = punter;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; }, this);<br>&nbsp; &nbsp; &nbsp; &nbsp; game.input.onUp.add(function (punter) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (punter.pointerMode == 3 || punter.punterMode == Phaser.PointerMode.CONTACT) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (touchEsquerra &amp;&amp; punter.id == touchEsquerra.id) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; touchEsquerra = null;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; touchEsquerraPosInicial.setTo(0, 0);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } else if (touchDreta &amp;&amp; punter.id == touchDreta.id) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; touchDreta = null;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br><br>&nbsp; &nbsp; &nbsp; &nbsp; }, this);<br>&nbsp; &nbsp; }<br>}<br></font><br>",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 52,
+      "selected": false,
+      "active": false,
+      "x": 3781,
+      "y": 824
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 61,
+          "y": 79,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 11 (b)</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 187,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 34,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "<div style=\"text-align: center;\">Controls tàctils</div><div style=\"text-align: center;\">per dispositius</div><div style=\"text-align: center;\">mòbils!!!</div>",
+          "selected": false,
+          "customClasses": "stepText"
+        },
+        {
+          "TextBox": {},
+          "x": 275,
+          "y": 89,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">function ferUpdate() {<br></font><br>&nbsp; &nbsp; /* Step_11 */<br>&nbsp; &nbsp; // Control tàctil<br>&nbsp; &nbsp; if (game.device.desktop === false) {<br>&nbsp; &nbsp; &nbsp; &nbsp; if (cercleEsquerra) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleEsquerra.destroy();<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; if (cercleDreta) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleDreta.destroy();<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; if (touchEsquerra) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleEsquerra = game.add.graphics(0, 0);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleEsquerra.lineStyle(6, 0x00ff00);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleEsquerra.drawCircle(touchEsquerraPosInicial.x, touchEsquerraPosInicial.y, 40);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleEsquerra.lineStyle(2, 0x00ff00);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleEsquerra.drawCircle(touchEsquerraPosInicial.x, touchEsquerraPosInicial.y, 60);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Moviment de la nau<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var distancia = touchEsquerraPosInicial.distance(touchEsquerra, true);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var angRad = touchEsquerraPosInicial.angle(touchEsquerra);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var angDeg = touchEsquerraPosInicial.angle(touchEsquerra, true);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (distancia &gt; 10) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; nau.rotation = angRad;<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; game.physics.arcade.velocityFromAngle(angDeg, distancia * 2, nau.body.velocity);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }&nbsp;<br>&nbsp; &nbsp; &nbsp; &nbsp; } else {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; nau.body.acceleration.set(0);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; nau.body.angularAcceleration = 0;<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; &nbsp; &nbsp; if (touchDreta) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleDreta = game.add.graphics(0, 0);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleDreta.lineStyle(6, 0xff0000);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleDreta.drawCircle(touchDreta.x, touchDreta.y, 40);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleDreta.lineStyle(2, 0xff0000);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; cercleDreta.drawCircle(touchDreta.x, touchDreta.y, 60);<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; dispararBala();<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br>&nbsp; &nbsp; }<br><br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 53,
+      "selected": false,
+      "active": false,
+      "x": 3966,
+      "y": 1019
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 174,
+          "y": 96,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 176,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 31,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\"><br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 50,
+          "y": 50,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono\" color=\"#000000\">Sons de PHASER</font>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 54,
+      "selected": true,
+      "active": true,
+      "markdown": "",
+      "x": 4148,
+      "y": 820
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 61,
+          "y": 79,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 36,
+          "text": "<font face=\"Hammersmith One\">Step 12</font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 270,
+          "y": 187,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 16,
+          "text": "<br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 34,
+          "y": 237,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 26,
+          "text": "Afegir Sons:<br>-Música de fons<br>-Accelerar<br>-Explosions<br>",
+          "selected": false,
+          "customClasses": "stepText"
+        },
+        {
+          "TextBox": {},
+          "x": 333,
+          "y": 29,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 12,
+          "text": "<font face=\"Droid Sans Mono, monospace\"><font color=\"#000000\">// Sons del joc<br></font>var musica_sound,&nbsp;accelera_sound,&nbsp;explota_sound;<br><br>function preload() {<br>&nbsp; &nbsp; // Carrega els sons<br>&nbsp; &nbsp; game.load.audio('musica', 'assets/musica.ogg');<br>&nbsp; &nbsp; game.load.audio('accelera', 'assets/thrust.ogg');<br>&nbsp; &nbsp; game.load.audio('explosio', 'assets/explosio.ogg');<br>}<br><br>function create() {<br>&nbsp; &nbsp; //  Crea els elements d'audio<br>&nbsp; &nbsp; musica_sound = game.add.audio('musica', 0.5, true);<br>&nbsp; &nbsp; accelera_sound = game.add.audio('accelera', 1, true);<br>&nbsp; &nbsp; explosio_sound = game.add.audio('explosio');<br><br>&nbsp; &nbsp; /* Step_3 */<br>&nbsp; &nbsp; // Controla les tecles que gestionen el moviment de la nau<br>&nbsp; &nbsp; acelerar = game.input.keyboard.addKey(Phaser.Keyboard.UP);<br>&nbsp; &nbsp; acelerar.onDown.add(function () {<br>&nbsp; &nbsp; &nbsp; &nbsp; if (!accelera_sound.isPlaying) {<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; accelera_sound.play();<br>&nbsp; &nbsp; &nbsp; &nbsp; }<br><br>&nbsp; &nbsp; });<br>&nbsp; &nbsp; acelerar.onUp.add(function () {<br>&nbsp; &nbsp; &nbsp; &nbsp; accelera_sound.stop();<br>&nbsp; &nbsp; });<br>&nbsp; &nbsp; // Inicia la reproducció del fons musical<br>&nbsp; &nbsp; musica_sound.play();<br>}<br><br>function ferUpdate() {<br>&nbsp; &nbsp; /* Step_7 */<br>&nbsp; &nbsp; //  Revisa les colisions entre el grup de bales i el grup d'asteroides<br>&nbsp; &nbsp; game.physics.arcade.overlap(bales, asteroides, function (bala, asteroide) {<br>&nbsp; &nbsp; &nbsp; &nbsp; explosio_sound.play();<br>&nbsp; &nbsp; }, null, this);<br><br><br>&nbsp; &nbsp; /* Hem de fer el mateix al Step_8 */<br><br>}</font><br>",
+          "selected": false,
+          "customClasses": "code"
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 55,
+      "selected": false,
+      "active": false,
+      "x": 4315,
+      "y": 626
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 172,
+          "y": 34,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 53,
+          "text": "<font face=\"Lato\" color=\"#000000\"><b>To Do...</b></font>",
+          "selected": false,
+          "customClasses": "titul"
+        },
+        {
+          "TextBox": {},
+          "x": 109,
+          "y": 149,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 33,
+          "text": "<ul><li><span style=\"color: rgb(0, 0, 0); font-family: Lato; line-height: normal;\">Mostrar les vides com un grup de imatges de la nau</span><br></li><li><span style=\"line-height: normal;\">Afegir una vida al fer un cert nombre de punts</span><br></li><li><span style=\"line-height: normal;\">En acabar, permetre reiniciar el joc prement una tecla</span><br></li><li><span style=\"line-height: normal;\">Mostrar una pantalla de benvinguda a l'inici del joc</span></li><li><span style=\"line-height: normal;\">En acabar, aturar les accions tàctils, música...</span><br></li><li><span style=\"line-height: normal;\">Crear diferents gràfics pels asteroides i mostrar-los</span></li><li><span style=\"line-height: normal;\">Al tocar un asteroide gros mostrar-de dos de petits</span></li><li><span style=\"line-height: normal;\">Incrementar progressivament la dificultat</span></li><li><span style=\"line-height: normal;\">Registrar les puntuacions màximes</span></li><li><span style=\"line-height: normal;\">...</span></li></ul>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 56,
+      "selected": false,
+      "active": false,
+      "x": 4445,
+      "y": 422
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 112,
+          "y": 502,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 80,
+          "text": "<font face=\"PressStart2P, cursive\" color=\"#e9f482\">GAME OVER!</font><br>",
+          "selected": false,
+          "customClasses": "blink"
+        },
+        {
+          "TextBox": {},
+          "x": 82,
+          "y": 132,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 100,
+          "text": "<font color=\"#e9f482\" face=\"PressStart2P, cursive\">ASTEROIDS</font><br>",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 201,
+          "y": 328,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 587,
+          "y": 398,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 834,
+          "y": 645,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 142,
+          "y": 598,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 823,
+          "y": 293,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 932,
+          "y": 68,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 453,
+          "y": 237,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 68,
+          "y": 20,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/tZqWtKd.png",
+          "type": "Image",
+          "x": 525,
+          "y": 694,
+          "scale": {
+            "x": 0.8222222222222222,
+            "y": 0.8222222222222222,
+            "width": 74,
+            "height": 74
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 0.5,
+      "rotateX": 1.57,
+      "rotateY": 1.57,
+      "rotateZ": 1.57,
+      "index": 57,
+      "selected": false,
+      "active": false,
+      "background": "img:http://i.imgur.com/GhnLAeB.png",
+      "x": 4442,
+      "y": 479
+    }
+  ],
+  "activeSlide": {
+    "components": [
+      {
+        "TextBox": {},
+        "x": 174,
+        "y": 96,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 33,
+        "text": "<br>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 46,
+        "y": 176,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 31,
+        "text": "<font face=\"Droid Sans Mono\" color=\"#000000\"><br></font>",
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 50,
+        "y": 50,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "size": 12,
+        "text": "<font face=\"Droid Sans Mono\" color=\"#000000\">Sons de PHASER</font>",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "index": 54,
+    "selected": true,
+    "active": true,
+    "markdown": "",
+    "x": 4148,
+    "y": 820
+  },
+  "fileName": "Asteroids amb PHASER",
+  "customStylesheet": ".strut-surface .code {\n\tborder: 4px groove green;\n  \tborder-radius: 25px;\n    padding: 10px; \n}\n.strut-surface .cmd {\n\tborder: 4px groove blue;\n  \tborder-radius: 25px;\n    padding: 10px; \n    background: #73AD21;  \n}\n\n.strut-surface .stepText {  \n  \tborder-radius: 25px;\n    background: #73AD21;  \n    opacity: 0.6;\n    padding: 10px; \n  \tbox-shadow: 7px 7px 4px grey;\n    text-align: justify;\n    text-justify: inter-word;\n}\n.strut-surface .quadreBlauClar {\n  \tborder-radius: 25px;\n    background: #ccffff;  \n    padding: 10px; \n  \tbox-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 10px 8px 0 rgba(0, 0, 0, 0.17);\n}\n.strut-surface .titul{\n    background-clip: text;\n  \ttext-shadow: 3px 3px 5px #ffffff;\n    text-shadow: 3px 3px 2px rgba(255, 252, 242, 1), 0 0 15px rgba(255, 252, 242, 1), 0 0 5px rgba(240, 233, 209, 1);\n\ttext-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 15px 15px;\n}\n.strut-surface .titul1{\n  \ttext-shadow: rgb(146, 146, 146) 0px 4px 5px;\n}\n\n.strut-surface .arcade1{\n    color: #6f7072;\n    text-shadow: 3px 3px 2px rgba(255, 252, 242, 1), 0 0 15px rgba(255, 252, 242, 1), 0 0 5px rgba(240, 233, 209, 1);\n    text-shadow: 0 0 3px green, 0 0 5px blue;\n    text-shadow: 3px 3px 2px rgba(0, 99, 99, 0.5), 0 0 15px rgba(255, 252, 242, 1), 0 0 5px rgba( 112, 143, 126, 1);\n}\n.strut-surface .blink {\n  animation: blinker 2s linear infinite;\n}\n\n@keyframes blinker {  \n  50% { opacity: 0.0; }\n}\n",
+  "deckVersion": "1.0",
+  "customBackgrounds": {
+    "bgs": []
+  },
+  "overviewX": 2308.5,
+  "overviewY": 721
+}

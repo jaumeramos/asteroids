@@ -1,0 +1,384 @@
+<!doctype html>
+<html>
+<head>
+    <title>Asteroids Step 12</title>
+    <script src="js/phaser.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	// Variables pel fons del joc
+	var fonsNebulosa, fonsPedres;
+	
+	// Variable per la nau
+	var nau;
+	
+	// Variables per les tecles que controlen el joc
+	var acelerar, girarDreta, girarEsquerra, disparar;
+
+	// Variable pel conjunt de bales
+	var bales;
+	
+	// Variable per demorar un temps fins la següent bala
+	var seguentBala = 0;
+	
+	// Variable pel conjunt d'asteroides
+	var asteroides;
+	
+	// Variable per demorar un temps fins el següent asteroide
+	var seguentAsteroide = 0;
+	
+	// Variable pel conjunt d'explosions
+	var explosions;
+	
+	// Variable per comptar els punts de la partida
+	var punts = 0;
+
+	// Variable per comptar les vides que ens queden
+	var vides = 3;
+	
+	// Variables per mostrar informació 
+	var textPunts, textVides;
+        
+    // Variables pels controls tàctils
+    var touchDreta, touchEsquerra,
+        cercleEsquerra, cercleDreta
+        touchEsquerraPosInicial = new Phaser.Point(0, 0);
+
+    // Sons del joc
+    var musica_sound,
+        accelera_sound,
+        explota_sound;
+
+	
+	// Crea el joc i associa les funcions de Callback
+	var game = new Phaser.Game(600, 800, Phaser.AUTO, '',
+    {preload: ferPreload, create: ferCreate, update: ferUpdate});
+	
+	function ferPreload(){
+		/* Step_1 */
+		// Carrega els elements gràfics pel fons
+		game.load.image('nebulosa', 'assets/nebulosa.png');
+		game.load.image('pedres', 'assets/pedres.png');
+		
+		/* Step_2 */
+		// Carrega la imatge de la nau. Hi ha dos imatges: una quan acelera i l'altra amb els motors apagats
+		game.load.spritesheet('nau', 'assets/nau-x2.png', 90, 90);
+			
+		/* Step_5 */
+		// Carrega la imatge de una bala
+		game.load.image('bala', 'assets/bala.png');
+			
+		/* Step_6 */
+		// Carrega la imatge de un asteroide
+		game.load.image('asteroide', 'assets/asteroide.png');
+		
+		/* Step_7 */
+		// Carrega la imatge per fer una explosió
+		game.load.spritesheet('explosio', 'assets/explosio.png', 128, 128);
+
+        /* Step_12 */
+        // Carrega els sons
+        game.load.audio('musica', 'assets/musica.ogg');
+        game.load.audio('accelera', 'assets/thrust.ogg');
+        game.load.audio('explosio', 'assets/explosio.ogg');
+		
+	}
+
+
+	function ferCreate(){
+		/* Step_1 */
+		//  Posa el fons del joc
+		game.stage.backgroundColor = '#000000';
+		fonsNebulosa = game.add.tileSprite(0, 0, game.width, game.height, 'nebulosa');
+		fonsPedres = game.add.tileSprite(0, 0, game.width, game.height, 'pedres');
+		
+		/* Step_2 */
+		// Inicialitza el motor de física ARCADE
+		game.physics.startSystem(Phaser.Physics.ARCADE);
+
+		// Dibuixa la nau
+		nau = game.add.sprite(game.width / 2, game.height / 2, 'nau');
+		// Indica el punt de referència de la nau
+		nau.anchor.x = 0.5;
+		nau.anchor.y = 0.5;
+		// Associa el motor físic amb la nau per tal de poder-la controlar
+		game.physics.enable(nau, Phaser.Physics.ARCADE);
+
+		// Defineix el fregament de la nau
+		nau.body.drag.set(100);
+		nau.body.angularDrag = 200;
+		// Defineix la màxima velocitat de la nau
+		nau.body.maxAngular = 300;
+		nau.body.maxVelocity.set(200);
+		
+        /* Step_12 */
+        //  Crea els elements d'audio
+        musica_sound = game.add.audio('musica', 0.5, true);
+        accelera_sound = game.add.audio('accelera', 1, true);
+        explosio_sound = game.add.audio('explosio');
+        
+		/* Step_3 */
+		// Controla les tecles que gestionen el moviment de la nau
+		acelerar = game.input.keyboard.addKey(Phaser.Keyboard.UP);
+		acelerar.onDown.add(function (){
+			game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
+			nau.frame = 1;
+            /* Step_12 */
+            accelera_sound.play();
+		});
+		acelerar.onUp.add(function (){
+			nau.body.acceleration.set(0,0);
+            nau.frame = 0;
+            /* Step_12 */
+            accelera_sound.stop();
+		});
+		girarDreta = game.input.keyboard.addKey(Phaser.Keyboard.RIGHT);
+		girarDreta.onDown.add(function (){nau.body.angularAcceleration = 100;});
+		girarDreta.onUp.add(function (){nau.body.angularAcceleration = 0;});
+		
+		girarEsquerra = game.input.keyboard.addKey(Phaser.Keyboard.LEFT);
+		girarEsquerra.onDown.add(function (){nau.body.angularAcceleration = -100;});
+		girarEsquerra.onUp.add(function (){nau.body.angularAcceleration = 0;});
+		
+		// Evita que les tecles es propaguin al navegador
+		this.game.input.keyboard.addKeyCapture([Phaser.Keyboard.UP, Phaser.Keyboard.RIGHT, Phaser.Keyboard.LEFT]);
+
+		
+		/* Step_5 */
+		//  Crea conjunt de bales amb 30 bales
+		bales = game.add.group();
+		bales.enableBody = true;
+		bales.physicsBodyType = Phaser.Physics.ARCADE;
+		bales.createMultiple(30, 'bala');
+		bales.setAll('anchor.x', 0.5);
+		bales.setAll('anchor.y', 1);
+		
+		// Controla la tecla per disparar
+		disparar = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
+		//disparar.onDown.add(function (){
+        disparar.onHoldCallback  = dispararBala;
+		// Evita que les tecles es propaguin al navegador
+		this.game.input.keyboard.addKeyCapture([Phaser.Keyboard.SPACEBAR]);
+		
+		/* Step_6 */
+		// Crea conjunt d'asteroides amb 12 asteroides
+		asteroides = game.add.group();
+		asteroides.enableBody = true;
+		asteroides.physicsBodyType = Phaser.Physics.ARCADE;
+		asteroides.createMultiple(12, 'asteroide');
+		asteroides.setAll('anchor.x', 0.5);
+		asteroides.setAll('anchor.y', 0.5);
+		
+		/* Step_7 */
+		// Crea conjunt d'explosions		
+		explosions = game.add.group();
+		explosions.createMultiple(12, 'explosio');
+		explosions.setAll('anchor.x', 0.5);
+		explosions.setAll('anchor.y', 0.5);
+		explosions.forEach(function (explosio) {
+				explosio.animations.add('explosio');
+			}, this);
+			
+		
+		/* Step_9 */			
+		//  Afegeix la informació dels punts i les vides
+		textPunts = game.add.text(10, 10, "Punts: " + punts, {font: '34px Arial', fill: '#fff'});
+		textVides = game.add.text(game.width - 150, 10, "Vides: " + vides, {font: '34px Arial', fill: '#fff'});
+
+        /* Step_11 */
+        // Defineix els callbacks pels dispositius mòbils
+        if (game.device.desktop === false) {
+            game.input.onDown.add(function(punter){
+                if (punter.pointerMode == 3 || punter.pointerMode == Phaser.PointerMode.CONTACT) {
+                    if (punter.positionDown.x < game.world.centerX && !touchEsquerra) {
+                        touchEsquerra = punter;
+                        touchEsquerraPosInicial.copyFrom(punter.positionDown);
+                    } else if (punter.positionDown.x > game.world.centerY && !touchDreta) {
+                        touchDreta = punter;
+                        dispararBala();
+                    }
+                }
+                
+            }, this);
+            game.input.onHold.add(function(punter){
+                if (touchDreta && punter.id == touchDreta.id) {
+                    dispararBala();
+                }
+            }, this);                                  
+            game.input.onUp.add(function(punter){
+                if (punter.pointerMode == 3 || punter.pointerMode == Phaser.PointerMode.CONTACT) {
+                    if (touchEsquerra && punter.id == touchEsquerra.id) {
+                        touchEsquerra = null;
+                        touchEsquerraPosInicial.setTo(0, 0);
+                    } else if (touchDreta && punter.id == touchDreta.id) {
+                        touchDreta = null;
+                    }
+                }
+
+            }, this);
+        }
+        
+
+        /* Step_12 */
+        // Inicia la reproducció del fons musical
+        musica_sound.play();
+	}
+	
+	
+	function ferUpdate(){
+	
+		/* Step_1 */
+		//  Mou cap cap a la dreta les pedres
+		fonsPedres.tilePosition.x += 0.5;
+				
+		/* Step_4 */
+		// Verifica si la nau surt de la pantalla
+        surtPantalla(nau);
+			
+		/* Step_6 */
+        // Comprova el temporitzador per crear un nou asteroide
+        if (game.time.now > seguentAsteroide && nau.alive) {
+            creaAsteroide();
+        }
+        asteroides.forEachExists(surtPantalla, this);
+		
+		/* Step_7 */
+        //  Revisa les colisions entre el grup de bales i el grup d'asteroides
+        game.physics.arcade.overlap(bales, asteroides, function(bala, asteroide){		
+				//  Amaga la bala i l'asteroide
+				bala.kill();
+				asteroide.kill();
+				//  Crea una explosió
+				var explosio = explosions.getFirstExists(false);
+				explosio.reset(asteroide.body.x, asteroide.body.y);
+				explosio.play('explosio', 30, false, true);
+				explosio.kill;
+				//  Suma punts
+                punts += 10;
+                /* Step_12 */
+                explosio_sound.play();
+			}, null, this);
+		
+		
+		/* Step_8 */
+        //  Revisa les colisions entre la nau i el grup d'asteroides		
+        game.physics.arcade.overlap(nau, asteroides, function(nau, asteroide){	
+				// Fa desapareixer l'asteroide
+				asteroide.kill();
+				// Mostra una explosicó
+				var explosio = explosions.getFirstExists(false);
+                explosio.reset(asteroide.body.x, asteroide.body.y);
+                /* Step_12 */
+				explosio.play('explosio', 30, false, true);
+				vides--;
+				/* Step_10 */
+				if (vides <= 0) {				
+					textEstat = game.add.text(game.world.centerX, game.world.centerY, 'GAME OVER', {font: '30px Arial', fill: '#fff'});
+					textEstat.anchor.setTo(0.5, 0.5);
+					asteroides.callAll('kill');
+					nau.kill();
+                }
+                /* Step_12 */
+                explosio_sound.play();
+			}, null, this);			
+			
+		/* Step_9 */			
+		//  Afegim la informació dels punts i les vides
+		textPunts.text = "Punts: " + punts;
+		textVides.text = "Vides: " + vides;
+        
+        /* Step_11 */
+        // Control tàctil
+        if (game.device.desktop === false) {
+            if (cercleEsquerra) {
+                cercleEsquerra.destroy();
+            }
+            if (cercleDreta) {
+                cercleDreta.destroy();
+            }
+            if (touchEsquerra) {
+                cercleEsquerra = game.add.graphics(0, 0);
+                cercleEsquerra.lineStyle(6, 0x00ff00);
+                cercleEsquerra.drawCircle(touchEsquerraPosInicial.x, touchEsquerraPosInicial.y, 40);
+                cercleEsquerra.lineStyle(2, 0x00ff00);
+                cercleEsquerra.drawCircle(touchEsquerraPosInicial.x, touchEsquerraPosInicial.y, 60);
+                // Moviment de la nau
+                var distancia = touchEsquerraPosInicial.distance(touchEsquerra, true);
+                var angRad = touchEsquerraPosInicial.angle(touchEsquerra);
+                var angDeg = touchEsquerraPosInicial.angle(touchEsquerra, true);
+                if (distancia > 10) {
+                    nau.rotation = angRad;
+                    game.physics.arcade.velocityFromAngle(angDeg, distancia * 2, nau.body.velocity);
+                } 
+            } else {
+                nau.body.acceleration.set(0);
+                nau.body.angularAcceleration = 0;
+            }
+            if (touchDreta) {
+                cercleDreta = game.add.graphics(0, 0);
+                cercleDreta.lineStyle(6, 0xff0000);
+                cercleDreta.drawCircle(touchDreta.x, touchDreta.y, 40);
+                cercleDreta.lineStyle(2, 0xff0000);
+                cercleDreta.drawCircle(touchDreta.x, touchDreta.y, 60);
+                dispararBala();
+            }
+        }
+
+	}
+	
+	function surtPantalla(sprite) {
+
+		// Comprova si surt horitzontalment
+		if (sprite.x < 0) {
+			sprite.x = game.width;
+		} else if (sprite.x > game.width) {
+			sprite.x = 0;
+		}
+
+		// Comprova si surt verticalment
+		if (sprite.y < 0) {
+			sprite.y = game.height;
+		} else if (sprite.y > game.height) {
+			sprite.y = 0;
+		}
+	}
+
+	function creaAsteroide() {
+		var asteroide = asteroides.getFirstExists(false);
+		if (asteroide) {
+			//  Evita que l'asteroide surti massa prop de la nau
+			do {
+				asteroide.reset(game.rnd.integerInRange(0, game.width), game.rnd.integerInRange(0, game.height));
+			} while (game.physics.arcade.distanceBetween(asteroide, nau) < 100);
+
+			asteroide.body.angularVelocity = game.rnd.integerInRange(-300, 300);
+			asteroide.body.velocity.setTo(game.rnd.integerInRange(-30, 60), game.rnd.integerInRange(-30, 60));
+			seguentAsteroide = game.time.now + 1000;
+		}
+	}
+
+    function dispararBala(e){
+        if (game.time.now > seguentBala) {
+            bala = bales.getFirstExists(false); // Reviu la primera bala disponible
+            if (bala) {
+                bala.reset(nau.body.x + (nau.body.width / 2), nau.body.y + (nau.body.height / 2));
+                bala.lifespan = 1000; // Temps de vida de la bala (1seg)
+                bala.rotation = nau.rotation;
+                game.physics.arcade.velocityFromRotation(nau.rotation, 400, bala.body.velocity);
+                seguentBala = game.time.now + 80; // Espera 80ms fins la següent bala
+            }
+        }
+    };
+        
+	</script>
+    <style>
+        body{
+            margin: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>

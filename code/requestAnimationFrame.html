@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>requestAnimationFrame</title>
+
+    <style>
+        div {
+            width: 10px;
+            height: 10px;
+            background: orange;
+            float: left;
+        }
+    </style>
+
+</head>
+<body>
+
+    <script type='text/javascript'>
+        (function rAF() {
+            document.body.appendChild(document.createElement('div'));
+            requestAnimationFrame(rAF);
+        })();
+    </script>
+
+</body>
