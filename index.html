@@ -1136,8 +1136,51 @@ setInterval(gameLoop, 1000/FPS);}
                     </div>
 
 
-                    <div class="step future" data-state="strut-slide-15" data-x="32085.333333333332" data-y="18017.28" data-scale="3" id="step-16" style="position: absolute; transform: translate(-50%, -50%) translate3d(32085.3px, 18017.3px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+                    <div class="step future" data-state="strut-slide-15" data-x="34679.46666666667" data-y="21166.08" data-scale="3" id="step-16" style="position: absolute; transform: translate(-50%, -50%) translate3d(34679.5px, 21166.1px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
                         <div class=" slideContainer strut-slide-15" style="width: 1024px; height: 768px;">
+                            <div class="themedArea">
+
+                            </div>
+
+                            <div class="componentContainer titul" style="top: 31px; left: 136px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);-moz-transform: scale(1, 1);transform: scale(1, 1)">
+                                    <div style="font-size: 36px;" class="antialias">
+                                        <font face="Lato" color="#000000"><b>Versió "òptima" de setTimeOut</b></font>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="componentContainer code" style="top: 128px; left: 16px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);-moz-transform: scale(1, 1);transform: scale(1, 1)">
+                                    <div style="font-size: 24px;" class="antialias">
+                                        <font face="Droid Sans Mono, monospace"><pre><code class="javascript">var FPS = 60;<br>var darreraCrida = new Date().getTime();<br><br>function gameLoop() {<br>&nbsp; &nbsp;processarEntradaUsuari();<br>&nbsp; &nbsp;actualitzarElementsJoc();<br>&nbsp; &nbsp;MostrarJoc();<br><br>&nbsp; &nbsp;var ara = new Date().getTime();<br>&nbsp; &nbsp;var seguentCrida = Math.max(0, 1000/FPS - (ara - darreraCrida));<br>&nbsp; &nbsp;setTimeout(gameLoop, seguentCrida);<br>&nbsp; &nbsp;darreraCrida = ara + seguentCrida;<br>}<br>gameLoop();<br></code></pre>
+                                        </font>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="componentContainer " style="top: 627px; left: 134px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
+                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);-moz-transform: scale(1, 1);transform: scale(1, 1)">
+                                    <div style="font-size: 36px;" class="antialias">
+                                        <ul>
+                                            <li><span style="color: rgb(0, 0, 0); font-family: Lato; line-height: normal;">Intenta tenir en compte la durada de l'execució</span>
+                                                <br>
+                                            </li>
+                                            <li><span style="color: rgb(0, 0, 0); font-family: Lato; line-height: normal;">S'aproxima al màxim als FPS demanats</span>
+                                                <br>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    
+                    <div class="step future" data-state="strut-slide-16" data-x="32085.333333333332" data-y="18017.28" data-scale="3" id="step-17" style="position: absolute; transform: translate(-50%, -50%) translate3d(32085.3px, 18017.3px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
+                        <div class=" slideContainer strut-slide-16" style="width: 1024px; height: 768px;">
                             <div class="themedArea">
 
                             </div>
@@ -1186,48 +1229,6 @@ setInterval(gameLoop, 1000/FPS);}
 
                     </div>
 
-
-                    <div class="step future" data-state="strut-slide-16" data-x="34679.46666666667" data-y="21166.08" data-scale="3" id="step-17" style="position: absolute; transform: translate(-50%, -50%) translate3d(34679.5px, 21166.1px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
-                        <div class=" slideContainer strut-slide-16" style="width: 1024px; height: 768px;">
-                            <div class="themedArea">
-
-                            </div>
-
-                            <div class="componentContainer titul" style="top: 31px; left: 136px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);-moz-transform: scale(1, 1);transform: scale(1, 1)">
-                                    <div style="font-size: 36px;" class="antialias">
-                                        <font face="Lato" color="#000000"><b>Versió "òptima" de setTimeOut</b></font>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="componentContainer code" style="top: 128px; left: 16px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);-moz-transform: scale(1, 1);transform: scale(1, 1)">
-                                    <div style="font-size: 24px;" class="antialias">
-                                        <font face="Droid Sans Mono, monospace"><pre><code class="javascript">var FPS = 60;<br>var darreraCrida = new Date().getTime();<br><br>function gameLoop() {<br>&nbsp; &nbsp;processarEntradaUsuari();<br>&nbsp; &nbsp;actualitzarElementsJoc();<br>&nbsp; &nbsp;MostrarJoc();<br><br>&nbsp; &nbsp;var ara = new Date().getTime();<br>&nbsp; &nbsp;var seguentCrida = Math.max(0, 1000/FPS - (ara - darreraCrida));<br>&nbsp; &nbsp;setTimeout(gameLoop, seguentCrida);<br>&nbsp; &nbsp;darreraCrida = ara + seguentCrida;<br>}<br>gameLoop();<br></code></pre>
-                                        </font>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="componentContainer " style="top: 627px; left: 134px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);-moz-transform: scale(1, 1);transform: scale(1, 1)">
-                                    <div style="font-size: 36px;" class="antialias">
-                                        <ul>
-                                            <li><span style="color: rgb(0, 0, 0); font-family: Lato; line-height: normal;">Intenta tenir en compte la durada de l'execució</span>
-                                                <br>
-                                            </li>
-                                            <li><span style="color: rgb(0, 0, 0); font-family: Lato; line-height: normal;">S'aproxima al màxim als FPS demanats</span>
-                                                <br>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
 
 
                     <div class="step future" data-state="strut-slide-17" data-x="4614.826666666667" data-y="14039.04" data-scale="3" id="step-18" style="position: absolute; transform: translate(-50%, -50%) translate3d(4614.83px, 14039px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;">
@@ -2999,9 +3000,7 @@ setInterval(gameLoop, 1000/FPS);}
                             </div>
 
                             <div class="componentContainer titul" style="top: 27px; left: 211px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-                                <div class="transformContainer" style="-webkit-transform: scale(1, 1);
-                                                                       -moz-transform: scale(1, 1);
-                                                                       transform: scale(1, 1)">
+                                <div class="transformContainer" style="-webkit-transform: scale(1, 1); -moz-transform: scale(1, 1);transform: scale(1, 1)">
                                     <div style="font-size: 36px;" class="antialias">
                                         <font face="Lato" color="#000000"><b>Depurar el codi en un dispositiu mòbil</b></font>
                                     </div>
@@ -3029,8 +3028,10 @@ setInterval(gameLoop, 1000/FPS);}
                                             <li><span style="color: rgb(0, 0, 0); line-height: normal;">Al dispositiu acceptar la petició per depurar</span>
                                                 <br>
                                             </li>
-                                            <li><span style="color: rgb(0, 0, 0); line-height: normal;">S'obre una nova finestra chrome amb les eines de depuració</span></li>
-                                        </ul><font color="#000000"><br></font>
+                                            <li><span style="color: rgb(0, 0, 0); line-height: normal;">S'obre una nova finestra chrome amb les eines de depuració</span>
+                                                <br>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
