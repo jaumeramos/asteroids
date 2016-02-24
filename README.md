@@ -7,3 +7,5 @@ A la branca master es troba tor el codi dels passos seguits per desenvolupar el 
 
 A la branca gh-pages (GitHub pages) es troba la presentació utilitzada per les jornades. Aquesta presentació es pot veure a l'enllaç [http://jaumeramos.github.io/asteroids/](http://jaumeramos.github.io/asteroids/)
 
+També podeu provar el joc tal i com quedará a l'adreça [http://jaumeramos.github.io/asteroids/asteroids.html](http://jaumeramos.github.io/asteroids/asteroids.html)
+
