@@ -42,9 +42,7 @@ var musica_sound,
     explota_sound;
 
 // Crea el joc i associa les funcions de Callback
-var w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-var game = new Phaser.Game(w, h.innerHeight, Phaser.AUTO, '', {
+var game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, '', {
     preload: ferPreload,
     create: ferCreate,
     update: ferUpdate
