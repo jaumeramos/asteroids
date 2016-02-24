@@ -73,7 +73,7 @@ function ferPreload() {
     /* Step_12 */
     // Carrega els sons
     game.load.audio('musica', 'assets/musica.ogg');
-    game.load.audio('accelera', 'assets/thrust.ogg');
+    game.load.audio('accelera', 'assets/acelera.ogg');
     game.load.audio('explosio', 'assets/explosio.ogg');
 
 }
