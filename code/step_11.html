@@ -102,7 +102,10 @@
 		acelerar.onDown.add(function (){
 			game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
 			nau.frame = 1;
-		});
+        });
+        acelerar.onHoldCallback = (function (){
+            game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
+        });
 		acelerar.onUp.add(function (){
 			nau.body.acceleration.set(0,0);
 			nau.frame = 0;

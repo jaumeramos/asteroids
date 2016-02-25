@@ -11,7 +11,7 @@
 	var nau;
 	
 	// Variables per les tecles que controlen el joc
-	var acelerar, girarDreta, girarEsquerra, disparar;
+	var acelerar, girarDreta, girarEsquerra;
 	
 	// Crea el joc i associa les funcions de Callback
 	var game = new Phaser.Game(600, 800, Phaser.AUTO, '',
@@ -60,7 +60,10 @@
 		acelerar.onDown.add(function (){
 			game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
 			nau.frame = 1;
-		});
+        });
+        acelerar.onHoldCallback = (function (){
+            game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
+        });
 		acelerar.onUp.add(function (){
 			nau.body.acceleration.set(0,0);
 			nau.frame = 0;

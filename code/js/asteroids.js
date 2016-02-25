@@ -73,7 +73,7 @@ function ferPreload() {
     /* Step_12 */
     // Carrega els sons
     game.load.audio('musica', 'assets/musica.ogg');
-    game.load.audio('accelera', 'assets/acelera.ogg');
+    game.load.audio('accelera', 'assets/thrust.ogg');
     game.load.audio('explosio', 'assets/explosio.ogg');
 
 }
@@ -118,7 +118,12 @@ function ferCreate() {
         game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
         nau.frame = 1;
         /* Step_12 */
-        accelera_sound.play();
+        if(!accelera_sound.isPlaying){
+            accelera_sound.play();
+        }
+    });
+    acelerar.onHoldCallback = (function (){
+        game.physics.arcade.accelerationFromRotation(nau.rotation, 200, nau.body.acceleration);
     });
     acelerar.onUp.add(function () {
         nau.body.acceleration.set(0, 0);
@@ -307,7 +312,7 @@ function ferUpdate() {
         if (cercleDreta) {
             cercleDreta.destroy();
         }
-        if (touchEsquerra) {
+        if (touchEsquerra && nau.alive) {
             cercleEsquerra = game.add.graphics(0, 0);
             cercleEsquerra.lineStyle(6, 0x00ff00);
             cercleEsquerra.drawCircle(touchEsquerraPosInicial.x, touchEsquerraPosInicial.y, 40);
@@ -325,7 +330,7 @@ function ferUpdate() {
             nau.body.acceleration.set(0);
             nau.body.angularAcceleration = 0;
         }
-        if (touchDreta) {
+        if (touchDreta && nau.alive) {
             cercleDreta = game.add.graphics(0, 0);
             cercleDreta.lineStyle(6, 0xff0000);
             cercleDreta.drawCircle(touchDreta.x, touchDreta.y, 40);
@@ -369,7 +374,7 @@ function creaAsteroide() {
 }
 
 function dispararBala(e) {
-    if (game.time.now > seguentBala) {
+    if (game.time.now > seguentBala && nau.alive) {
         bala = bales.getFirstExists(false); // Reviu la primera bala disponible
         if (bala) {
             bala.reset(nau.body.x + (nau.body.width / 2), nau.body.y + (nau.body.height / 2));
